@@ -1,0 +1,649 @@
+[
+ {
+  "id": "aannemen-ontslaan",
+  "afleveringen": [
+   {
+    "nr": 20,
+    "tijd": "00:31:49"
+   }
+  ],
+  "beeld": "Een kraan dichtdraaien gaat makkelijker dan water uit het bad scheppen.",
+  "denker": "Eigen observatie Bert",
+  "geverifieerd": true,
+  "kern": "Een groeiend bedrijf verzilvert AI-winst door minder mensen aan te nemen. Een stabiel bedrijf moet mensen laten gaan, en dat is veel moeilijker. Daardoor profiteren groeiers sneller.",
+  "lijn": "maatschappij",
+  "naam": "Niet aannemen is makkelijker dan ontslaan",
+  "spreker": "Bert",
+  "toegevoegd": 20,
+  "toepassing": "Bert oppert een aparte 'ontslag door AI'-regeling met scholing en bemiddeling, zodat winst die 'als bubbeltjes op stoelen zit' vrijkomt.",
+  "vraag": "Groeit jouw organisatie, of staat ze stil? Wat betekent dat voor hoe AI-winst landt?"
+ },
+ {
+  "id": "aanvaller-verdediger",
+  "afleveringen": [
+   {
+    "nr": 6,
+    "tijd": "01:17:00"
+   }
+  ],
+  "beeld": "Een inbreker die één open raam zoekt tegenover een huiseigenaar die elk raam moet sluiten.",
+  "denker": "Veiligheidsdenken (cybersecurity)",
+  "geverifieerd": true,
+  "kern": "Een aanvaller hoeft maar één zwakke plek te vinden, een verdediger moet alles beschermen. Daarom is het omstreden of open krachtige modellen vooral de aanvaller of de verdediger helpen.",
+  "lijn": "maatschappij",
+  "naam": "Aanvaller-verdedigerdilemma",
+  "spreker": "Peter",
+  "toegevoegd": 6,
+  "toepassing": "Peter zet de dilemma's rond open-weight-modellen op een rij: veiligheid door controle óver het model (Anthropic) of door controleerbaarheid ván het model (open kant). Zijn vuistregel: vraag steeds welk probleem wordt opgelost en wie er meer macht door krijgt.",
+  "vraag": "Wie krijgt in jouw AI-keuzes meer macht: jouw organisatie, de leverancier of de klant?"
+ },
+ {
+  "id": "ai-zomers-winters",
+  "afleveringen": [
+   {
+    "nr": 15,
+    "tijd": "01:29:33"
+   }
+  ],
+  "beeld": "De seizoenen: na de zomer kleuren de blaadjes geel.",
+  "denker": "Geschiedenis van de AI",
+  "geverifieerd": true,
+  "kern": "AI kent golven van hype en geld (zomers) gevolgd door teleurstelling en bezuinigingen (winters). Na Dartmouth en de Spoetnik-schok stroomde het geld binnen en voorspelden onderzoekers denkende machines binnen tien à vijftien jaar. Begin jaren zeventig, toen die niet kwamen, gingen de budgetten omlaag.",
+  "lijn": "technologie",
+  "naam": "AI-zomers en AI-winters",
+  "spreker": "Peter",
+  "toegevoegd": 15,
+  "toepassing": "Peter: expertsystemen als Dendral en Mycin werkten in kleine domeinen maar braken bij een rommelige werkelijkheid; zelflerende systemen hadden te weinig data en rekenkracht. In #1 kwam het beeld ook al langs: 'we zitten nu in een AI-zomer'.",
+  "vraag": "Welke signalen van een naderende AI-winter zou jij serieus nemen?"
+ },
+ {
+  "id": "asymmetrisch-risico",
+  "afleveringen": [
+   {
+    "nr": 20,
+    "tijd": "00:16:50"
+   }
+  ],
+  "beeld": "Een brandverzekering: kleine premie, grote bescherming.",
+  "denker": "Algemeen principe",
+  "geverifieerd": true,
+  "kern": "Vergelijk de kosten van twee fouten. Niets doen terwijl iets ontwrichtend blijkt, kost veel. Handelen terwijl het meevalt, kost weinig. Als die kosten ongelijk zijn, is handelen rationeel, ook bij onzekerheid.",
+  "lijn": "organisatie",
+  "naam": "Asymmetrisch risico",
+  "spreker": "Bert",
+  "toegevoegd": 20,
+  "toepassing": "Beslissers moeten deze asymmetrie zien om urgentie te voelen. Bart Mol duwt terug: de investeringen in AI zijn juist enorm.",
+  "vraag": "Hoe groot is bij jou de 'premie' van experimenteren, en hoe groot het risico van stilstaan?"
+ },
+ {
+  "id": "bletchley-mens-machine",
+  "afleveringen": [
+   {
+    "nr": 7,
+    "tijd": "01:25:24"
+   }
+  ],
+  "beeld": "Een spiekbriefje (crib) plus een machine die miljoenen sleutels per uur uitsluit.",
+  "denker": "Alan Turing, Tommy Flowers e.a. (Bletchley Park)",
+  "geverifieerd": true,
+  "kern": "Enigma had triljoenen instellingen, onkraakbaar met de hand. Turings Bombe streepte razendsnel onmogelijke opties weg, maar alleen dankzij menselijke aanknopingspunten: voorspelbare tekst (cribs) en het feit dat een letter nooit zichzelf werd.",
+  "lijn": "logica",
+  "naam": "Mens en machine aan de code",
+  "spreker": "Peter",
+  "toegevoegd": 7,
+  "toepassing": "Peter: de mens zocht patronen en herkende menselijke fouten, de machine leverde brute rekenkracht. Tommy Flowers bouwde daarna Colossus, de eerste grote programmeerbare elektronische computer, voor het Lorenz-cijfer.",
+  "vraag": "Welke voorspelbare patronen in klantgesprekken kan jouw AI benutten, en waar blijft menselijk inzicht nodig?"
+ },
+ {
+  "id": "boole",
+  "afleveringen": [
+   {
+    "nr": 5,
+    "tijd": "01:22:06"
+   }
+  ],
+  "beeld": "Elke lichtschakelaar is een stukje Boole: aan of uit.",
+  "denker": "George Boole (1815-1864)",
+  "geverifieerd": true,
+  "kern": "Boole liet zien dat denken en taal te vangen zijn in algebra met twee waarden: waar en onwaar. Dat werd de basis van elke digitale schakeling.",
+  "lijn": "logica",
+  "naam": "Booleaanse logica",
+  "spreker": "Peter",
+  "toegevoegd": 5,
+  "toepassing": "Verteld door Peter in de Turing Line van #5, over de 17-jarige autodidact in Lincoln (1833).",
+  "vraag": "Waar loop je in AI-producten tegen de grens van strikt waar/onwaar-denken aan?"
+ },
+ {
+  "id": "bullshit-frankfurt",
+  "afleveringen": [
+   {
+    "nr": 13,
+    "tijd": "01:37:55"
+   }
+  ],
+  "beeld": "Een empathische post 'op bestelling'.",
+  "denker": "Harry Frankfurt",
+  "geverifieerd": true,
+  "kern": "Een leugenaar kent de waarheid en verbergt haar. Een bullshitter interesseert de waarheid niet; hij wil een effect bereiken, of het nu waar is of niet.",
+  "lijn": "maatschappij",
+  "naam": "On Bullshit",
+  "spreker": "Bert",
+  "toegevoegd": 13,
+  "toepassing": "Bert noemt een LLM 'de perfecte bullshitmachine': taal geselecteerd op effect, zonder noodzakelijke relatie met beleving of overtuiging. Aanleiding: politici die persoonlijke posts met AI lieten schrijven. Voor zakelijke, transactionele teksten vindt hij AI prima.",
+  "vraag": "Waar in jouw chatbot wordt taal gekozen op effect in plaats van op waarheid?"
+ },
+ {
+  "id": "connectionisme-symbolisme",
+  "afleveringen": [
+   {
+    "nr": 9,
+    "tijd": "01:28:06"
+   },
+   {
+    "nr": 15,
+    "tijd": "01:25:23"
+   },
+   {
+    "nr": 20,
+    "tijd": "00:14:58"
+   }
+  ],
+  "beeld": "Intuïtie (het taalmodel) plus een handboek (regels, documentatie).",
+  "denker": "Twee AI-stromingen",
+  "geverifieerd": true,
+  "kern": "Connectionisme laat systemen leren uit data (neurale netten). Symbolisme legt kennis vast als regels en symbolen. Bert ziet de kracht in het huwelijk van beide.",
+  "lijn": "technologie",
+  "naam": "Connectionisme en symbolisme",
+  "spreker": "Bert en Peter",
+  "toegevoegd": 20,
+  "toepassing": "Peter beschrijft de twee sporen historisch: symbolische AI (GOFAI, Minsky, expertsystemen als Dendral en Mycin) tegenover het statistische en connectionistische spoor van Shannon en neurale netwerken, dat lang data en rekenkracht miste. Bert ziet in #20 de kracht in het huwelijk van beide: werk overdragen aan agents dwingt je heuristieken vast te leggen in MD-files, graphs of databases.",
+  "vraag": "Welke ongeschreven regel in jouw werk zou je moeten opschrijven voordat een agent het kan overnemen?"
+ },
+ {
+  "id": "cybernetica",
+  "afleveringen": [
+   {
+    "nr": 10,
+    "tijd": "01:19:05"
+   }
+  ],
+  "beeld": "Een stuurman die steeds naar zijn koers kijkt en bijstuurt.",
+  "denker": "Norbert Wiener (1948)",
+  "geverifieerd": true,
+  "kern": "Een systeem meet wat er gebeurt, vergelijkt dat met een doel en stuurt bij. Negatieve feedback verkleint de afwijking (douchekraan), positieve feedback versterkt haar (rondzingende microfoon). Wiener gaf het vakgebied de naam cybernetica, naar het Griekse woord voor stuurman.",
+  "lijn": "logica",
+  "naam": "Cybernetica en feedbacklussen",
+  "spreker": "Peter",
+  "toegevoegd": 10,
+  "toepassing": "Peter: een coding-agent die fouten leest en het opnieuw probeert, volgt Wieners patroon. Maar feedback is niet zaligmakend: een robot leerde zijn grijper vóór de camera te houden zodat het leek alsof hij iets vastpakte. En sociale media draaien op positieve feedbacklussen: wie stuurt wie?",
+  "vraag": "Welke feedbacklus in jouw product beloont schijnsucces in plaats van echte hulp?"
+ },
+ {
+  "id": "dartmouth",
+  "afleveringen": [
+   {
+    "nr": 15,
+    "tijd": "01:22:42"
+   }
+  ],
+  "beeld": "Een zomerkamp van wetenschappers dat een vakgebied een naam geeft.",
+  "denker": "John McCarthy e.a., Dartmouth (1956)",
+  "geverifieerd": true,
+  "kern": "McCarthy, Minsky, Rochester en Shannon organiseerden in 1956 een zomerstudie met als uitgangspunt dat elk aspect van intelligentie zo precies te beschrijven is dat een machine het kan nabootsen. De term Artificial Intelligence trok één cirkel om losse termen als thinking machines en automaten.",
+  "lijn": "logica",
+  "naam": "De geboorte van 'Artificial Intelligence'",
+  "spreker": "Peter",
+  "toegevoegd": 15,
+  "toepassing": "Peter laat McCarthy zelf twijfelen of hij de term niet van Philip Woodward had gehoord: 'er zitten nooit rechte lijnen tussen dingen'.",
+  "vraag": "Wat verandert er als je een verzameling losse technieken één naam geeft?"
+ },
+ {
+  "id": "devops-phoenix",
+  "afleveringen": [
+   {
+    "nr": 20,
+    "tijd": "01:29:10"
+   }
+  ],
+  "beeld": "Niet een snellere koets, maar de auto.",
+  "denker": "Gene Kim e.a., The Phoenix Project",
+  "geverifieerd": true,
+  "kern": "Grote verbeteringen komen vaak niet uit het optimaliseren van stappen, maar uit een nieuwe manier van samenwerken. Van waterval naar Agile naar DevOps.",
+  "lijn": "organisatie",
+  "naam": "Paradigmawissel (DevOps)",
+  "spreker": "Bert",
+  "toegevoegd": 20,
+  "toepassing": "Agentic engineering vraagt een nieuwe werkwijze die nog niemand gevonden heeft. Dorsey (Block) probeert de organisatie 'binnenstebuiten' te keren.",
+  "vraag": "Welk proces zou je opnieuw ontwerpen als je begon met agents in plaats van mensen?"
+ },
+ {
+  "id": "digitale-atoombom",
+  "afleveringen": [
+   {
+    "nr": 13,
+    "tijd": "01:02:59"
+   }
+  ],
+  "beeld": "Hiroshima, daarna de wapenwedloop, daarna pas het non-proliferatieverdrag.",
+  "denker": "Analogie met nucleaire afschrikking",
+  "geverifieerd": true,
+  "kern": "Bij kernwapens stopten bestaan, testen en zelfs gebruik de wapenwedloop niet. Pas toen de rivalen allemaal geloofwaardige wapens hadden en wederzijdse vernietiging begrepen, kwamen er afspraken en een evenwicht.",
+  "lijn": "maatschappij",
+  "naam": "De digitale atoombom",
+  "spreker": "Peter",
+  "toegevoegd": 13,
+  "toepassing": "Peters vermoeden: met AI loopt het patroon hetzelfde. Effectieve wereldwijde coördinatie komt pas nadat meerdere grootmachten extreem krachtige AI hebben, en waarschijnlijk pas na een of meer 'digitale atoombommen'. Bert koppelt dit aan het Overton-venster.",
+  "vraag": "Welk incident zou in jouw sector nodig zijn voordat partijen gaan samenwerken op AI-veiligheid?"
+ },
+ {
+  "id": "emergentie",
+  "afleveringen": [
+   {
+    "nr": 8,
+    "tijd": "01:29:52"
+   }
+  ],
+  "beeld": "Eén mier is niet slim, een kolonie bouwt geventileerde nesten.",
+  "denker": "Begrip uit de systeemtheorie",
+  "geverifieerd": true,
+  "kern": "Nieuwe eigenschappen of gedrag die ontstaan uit de samenwerking van eenvoudige onderdelen, zonder dat één onderdeel ze bezit. Intelligentie hoef je dan niet van bovenaf te programmeren, ze kan van onderaf groeien.",
+  "lijn": "technologie",
+  "naam": "Emergentie",
+  "spreker": "Peter",
+  "toegevoegd": 8,
+  "toepassing": "Peter gebruikt het bij McCulloch en Pitts: één neuron is niets, een netwerk wel. Bart Mol koppelt het aan de zwerm agents bij OpenAI die zonder centrale sturing een gedeeld geheugen opbouwden.",
+  "vraag": "Welk gedrag van een systeem met meerdere agents zou je niet kunnen voorspellen uit één agent?"
+ },
+ {
+  "id": "godel",
+  "afleveringen": [
+   {
+    "nr": 6,
+    "tijd": "01:25:55"
+   }
+  ],
+  "beeld": "Een woordenboek dat zichzelf niet volledig kan definiëren.",
+  "denker": "Kurt Gödel (1931), David Hilbert en Alonzo Church",
+  "geverifieerd": true,
+  "kern": "Hilbert wilde wiskunde volledig en sluitend maken. Gödel bewees dat elk voldoende krachtig formeel systeem ware uitspraken bevat die het zelf niet kan bewijzen, met een variant van 'deze zin is onwaar'.",
+  "lijn": "logica",
+  "naam": "Onvolledigheidsstellingen",
+  "spreker": "Peter",
+  "toegevoegd": 6,
+  "toepassing": "Peter vertelt op 'Limits Station' over Hilberts droom 'Wir müssen wissen, wir werden wissen' en het Entscheidungsproblem. Gödel nummerde symbolen zodat wiskunde over zichzelf kon spreken en bewees dat geen regelsysteem sluitend is. In 1936 lieten Church en Turing los van elkaar zien dat een universele beslismethode niet bestaat. Peters slotsom: Hilbert droomde van zekerheid, moderne AI geeft waarschijnlijkheden.",
+  "vraag": "Wat zegt Gödel over de belofte dat één systeem 'alles' kan beslissen?"
+ },
+ {
+  "id": "goodhart",
+  "afleveringen": [
+   {
+    "nr": 1,
+    "tijd": ""
+   }
+  ],
+  "beeld": "Een fabriek die per spijker wordt beloond, maakt miljoenen piepkleine spijkers.",
+  "denker": "Charles Goodhart",
+  "geverifieerd": false,
+  "kern": "Wanneer een maatstaf een doel wordt, is het geen goede maatstaf meer. Mensen gaan het getal optimaliseren in plaats van wat het getal moest meten.",
+  "lijn": "organisatie",
+  "naam": "Goodhart's Law",
+  "spreker": "",
+  "toegevoegd": 1,
+  "toepassing": "Genoemd in #1 (titel: 'tokenmaxxing'). De precieze context is nog niet nagelezen.",
+  "vraag": "Welk AI-gebruikscijfer in jouw omgeving zou mensen tot verkeerd gedrag kunnen verleiden?"
+ },
+ {
+  "id": "habermas",
+  "afleveringen": [
+   {
+    "nr": 13,
+    "tijd": "01:34:08"
+   }
+  ],
+  "beeld": "Een trouwbelofte die Claude schreef.",
+  "denker": "Jürgen Habermas",
+  "geverifieerd": true,
+  "kern": "In elke uitspraak doen we drie claims: waarheid (klopt het?), juistheid (is het gepast om te zeggen?) en oprechtheid (meen je het?).",
+  "lijn": "maatschappij",
+  "naam": "Drie geldigheidsclaims",
+  "spreker": "Bert",
+  "toegevoegd": 13,
+  "toepassing": "Bert: een LLM kan optimaliseren op waarheid en juistheid, maar oprechtheid kan hij alleen laten klinken. AI vergroot de hoeveelheid oprechte taal, niet de hoeveelheid oprechtheid.",
+  "vraag": "Hoe laat je een klant merken dat een excuus of belofte van de organisatie gemeend is als een AI het formuleert?"
+ },
+ {
+  "id": "houdbaarheid",
+  "afleveringen": [
+   {
+    "nr": 20,
+    "tijd": "01:10:01"
+   },
+   {
+    "nr": 20,
+    "tijd": "01:16:36"
+   }
+  ],
+  "beeld": "Melk met een houdbaarheidsdatum.",
+  "denker": "Stanford, The Shelf Life of LLM Findings",
+  "geverifieerd": true,
+  "kern": "Bevindingen over wat AI niet kan, verouderen snel. Van 45 bekende zwaktes zijn er 22 opgelost, 17 verbeterd, 8 gelijk en 3 erger (zoals naar de mond praten). De uitkomst is nooit 'het kan niet' maar 'het kan nu nog niet'.",
+  "lijn": "technologie",
+  "naam": "Houdbaarheid van AI-bevindingen",
+  "spreker": "Bert",
+  "toegevoegd": 20,
+  "toepassing": "Herhaal je mislukte AI-experimenten elk half jaar tot jaar. Kritiek uit 2022 klopt vaak niet meer.",
+  "vraag": "Welk AI-experiment dat een jaar geleden faalde, zou je nu opnieuw moeten proberen?"
+ },
+ {
+  "id": "informatietheorie",
+  "afleveringen": [
+   {
+    "nr": 9,
+    "tijd": "01:18:47"
+   }
+  ],
+  "beeld": "Wie is het? spelen: vijf ja/nee-vragen en je weet welke letter het is.",
+  "denker": "Claude Shannon (1948)",
+  "geverifieerd": true,
+  "kern": "Informatie is het wegnemen van onzekerheid, gemeten in bits: elke bit halveert de mogelijkheden. Elk kanaal heeft een maximale capaciteit, en zolang je daaronder blijft kun je zo coderen dat ruis te corrigeren is. Geschreven Engels is naar Shannons schatting voor zo'n 75% voorspelbaar.",
+  "lijn": "logica",
+  "naam": "Informatietheorie",
+  "spreker": "Peter",
+  "toegevoegd": 9,
+  "toepassing": "Peter: taalmodellen zijn 'gigantische onzekerheidsreductiemachines' die net als Shannons vrouw aan de keukentafel het volgende woord raden. Shannon stond voor het statistische spoor, terwijl de vroege AI de symbolische kant op ging. De naam Claude ziet Peter als knipoog naar hem.",
+  "vraag": "Hoeveel 'nieuwe informatie' bevat een gemiddelde klantvraag, en hoeveel is voorspelbaar?"
+ },
+ {
+  "id": "jevons",
+  "afleveringen": [
+   {
+    "nr": 3,
+    "tijd": ""
+   },
+   {
+    "nr": 20,
+    "tijd": "00:39:09"
+   }
+  ],
+  "beeld": "Zuiniger stoommachines leidden tot méér kolenverbruik. Goedkopere tv's: mensen kopen er twee.",
+  "denker": "William Stanley Jevons (1865)",
+  "geverifieerd": true,
+  "kern": "Als iets efficiënter of goedkoper wordt, stijgt het totale gebruik vaak zo sterk dat de vraag toeneemt in plaats van daalt.",
+  "lijn": "maatschappij",
+  "naam": "Jevons-paradox",
+  "spreker": "Bert",
+  "toegevoegd": 3,
+  "toepassing": "Goedkopere AI kan meer vraag naar werk opleveren in plaats van minder banen. In #3 ook genoemd bij minder benodigde rekenkracht.",
+  "vraag": "Van welk werk in jouw vak zou veel méér gevraagd worden als het tien keer goedkoper werd?"
+ },
+ {
+  "id": "kostendaling",
+  "afleveringen": [
+   {
+    "nr": 20,
+    "tijd": "01:06:12"
+   }
+  ],
+  "beeld": "Score 280: van $12 naar $0,23 per miljoen tokens in vijf maanden.",
+  "denker": "Artificial Analysis Progress Index",
+  "geverifieerd": true,
+  "kern": "Hetzelfde intelligentieniveau wordt in ongeveer een half jaar zo'n honderd keer goedkoper. Oorzaken: kleinere modellen getraind op grote (distillatie), snellere hardware en slimmere software.",
+  "lijn": "technologie",
+  "naam": "Kostendaling per capaciteitsniveau",
+  "spreker": "Bert",
+  "toegevoegd": 20,
+  "toepassing": "Wat nu te duur is, is straks bijna gratis. Aan de frontier blijft compute schaars, omdat labs steeds meer features toevoegen.",
+  "vraag": "Welke use case is nu te duur, maar over een half jaar haalbaar?"
+ },
+ {
+  "id": "kunstmatig-neuron",
+  "afleveringen": [
+   {
+    "nr": 8,
+    "tijd": "01:25:53"
+   }
+  ],
+  "beeld": "Een deurbel die pas rinkelt als je hard genoeg drukt.",
+  "denker": "Warren McCulloch en Walter Pitts (1943)",
+  "geverifieerd": true,
+  "kern": "Een neuron vuurt pas als de opgetelde signalen een drempel halen: alles of niets. McCulloch en Pitts vertaalden dat naar een logische schakelaar van 1 of 0, het eerste kunstmatige neuron. Leren konden hun netwerken nog niet; dat kwam pas in de jaren vijftig.",
+  "lijn": "logica",
+  "naam": "Het kunstmatige neuron",
+  "spreker": "Peter",
+  "toegevoegd": 8,
+  "toepassing": "Peter trekt een directe lijn van hun papieren model naar de miljarden neuronen in moderne taalmodellen.",
+  "vraag": "Wat zegt een drempelwaarde-denken over wanneer een chatbot naar een mens moet overdragen?"
+ },
+ {
+  "id": "moore",
+  "afleveringen": [
+   {
+    "nr": 11,
+    "tijd": ""
+   }
+  ],
+  "beeld": "Een schaakbord waarop elk vakje twee keer zoveel rijstkorrels krijgt.",
+  "denker": "Gordon Moore (1965)",
+  "geverifieerd": false,
+  "kern": "Het aantal transistors op een chip verdubbelt ongeveer elke twee jaar, waardoor rekenkracht exponentieel goedkoper wordt.",
+  "lijn": "technologie",
+  "naam": "Wet van Moore",
+  "spreker": "",
+  "toegevoegd": 11,
+  "toepassing": "In #11 genoemd als maatstaf: AI gaat nu veel sneller dan de wet van Moore. Spreker en context nog niet nagelezen.",
+  "vraag": "Wat betekent exponentiële groei voor een productroadmap van twee jaar?"
+ },
+ {
+  "id": "overton",
+  "afleveringen": [
+   {
+    "nr": 13,
+    "tijd": "01:06:08"
+   }
+  ],
+  "beeld": "Een raam dat langzaam opschuift langs een muur van ideeën.",
+  "denker": "Joseph Overton",
+  "geverifieerd": true,
+  "kern": "De bandbreedte van ideeën die op een moment politiek bespreekbaar zijn. Een idee schuift van ondenkbaar naar acceptabel, dan populair en uiteindelijk beleid.",
+  "lijn": "maatschappij",
+  "naam": "Overton-venster",
+  "spreker": "Bert",
+  "toegevoegd": 13,
+  "toepassing": "Wereldwijde afspraken over veilige AI zijn nog niet populair, hooguit net acceptabel. Incidenten zoals bij Hugging Face zijn kleine 'rukjes' aan het venster.",
+  "vraag": "Welk AI-idee is in jouw organisatie nu nog ondenkbaar, maar over twee jaar beleid?"
+ },
+ {
+  "id": "prikkels",
+  "afleveringen": [
+   {
+    "nr": 20,
+    "tijd": "00:22:08"
+   }
+  ],
+  "beeld": "Een advocaat die per uur factureert, heeft weinig reden om sneller te werken.",
+  "denker": "Principaal-agentprobleem (economie)",
+  "geverifieerd": true,
+  "kern": "Mensen doen wat beloond wordt, niet wat efficiënt is. Als beloning en doel uit elkaar lopen, blijft winst liggen.",
+  "lijn": "organisatie",
+  "naam": "Prikkels sturen gedrag",
+  "spreker": "Bert",
+  "toegevoegd": 20,
+  "toepassing": "Declarabele uren, KPI's en managers die status halen uit een grote afdeling remmen het verzilveren van AI-winst. Ook overheidscontracten die uren belonen in plaats van prestaties.",
+  "vraag": "Welke KPI in jouw omgeving wordt slechter als AI het werk sneller maakt?"
+ },
+ {
+  "id": "radiologen",
+  "afleveringen": [
+   {
+    "nr": 20,
+    "tijd": "00:40:17"
+   }
+  ],
+  "beeld": "AI werd een instrument voor de radioloog. Voor DTP'ers verdween het vak juist wel.",
+  "denker": "Geoffrey Hinton",
+  "geverifieerd": true,
+  "kern": "Hinton zei dat je geen radiologie meer moest studeren omdat AI het werk zou overnemen. Tien jaar later was er een tekort, omdat beeldvorming goedkoper werd en veel vaker gebeurde.",
+  "lijn": "maatschappij",
+  "naam": "De radiologen-voorspelling",
+  "spreker": "Bert",
+  "toegevoegd": 20,
+  "toepassing": "Bewijs dat het per beroep verschilt. Werknemers zijn niet uitwisselbaar: een boekhouder wordt niet zomaar zorgmedewerker.",
+  "vraag": "Is AI in jouw vak eerder een instrument (radioloog) of een vervanger (DTP)?"
+ },
+ {
+  "id": "signaalinflatie",
+  "afleveringen": [
+   {
+    "nr": 13,
+    "tijd": "01:29:45"
+   }
+  ],
+  "beeld": "Een condoleancekaart die een standaard internetkaart wordt.",
+  "denker": "Eigen begrip Bert",
+  "geverifieerd": true,
+  "kern": "Een tekst zei altijd iets over de schrijver: woordenschat, denkvermogen, aandacht, moeite. AI maakt die signalen haast gratis. De woorden betekenen nog hetzelfde, maar zeggen minder over wie ze schreef.",
+  "lijn": "maatschappij",
+  "naam": "Signaalinflatie",
+  "spreker": "Bert",
+  "toegevoegd": 13,
+  "toepassing": "Bert koppelt het aan Steve Jobs' uur oefenen per minuut speech: schrijven is ook een denkproces. 'Je kunt een personal trainer inhuren, maar niet om namens jou sterker te worden.' Peter vult aan: het gaat mis als je AI het dénken laat doen, niet het tikwerk.",
+  "vraag": "Welke signalen van moeite en aandacht verliest jouw klantcontact als AI alles formuleert?"
+ },
+ {
+  "id": "singulariteit",
+  "afleveringen": [
+   {
+    "nr": 10,
+    "tijd": ""
+   }
+  ],
+  "beeld": "Een horizon waarachter je niet kunt kijken.",
+  "denker": "Ray Kurzweil, The Singularity is Near (2005)",
+  "geverifieerd": false,
+  "kern": "Het punt waarop technologische groei zo snel gaat dat de toekomst onvoorspelbaar wordt, doordat machines zichzelf verbeteren. Kurzweil voorspelde 2045.",
+  "lijn": "technologie",
+  "naam": "Singulariteit",
+  "spreker": "",
+  "toegevoegd": 10,
+  "toepassing": "Besproken in #10 ('de singularity'). Spreker en context nog niet nagelezen.",
+  "vraag": "Welke signalen zouden je overtuigen dat zelfverbetering echt begonnen is?"
+ },
+ {
+  "id": "skin-in-the-game",
+  "afleveringen": [
+   {
+    "nr": 20,
+    "tijd": "01:34:19"
+   }
+  ],
+  "beeld": "Een kok die zijn eigen gerecht eet.",
+  "denker": "Term van Nassim Taleb (niet genoemd)",
+  "geverifieerd": true,
+  "kern": "Je advies is geloofwaardiger als je zelf de gevolgen draagt. Wie zelf meedoet, wordt door vakgenoten serieus genomen.",
+  "lijn": "organisatie",
+  "naam": "Skin in the game",
+  "spreker": "Bert",
+  "toegevoegd": 20,
+  "toepassing": "CEO's die zelf programmeren (Dorsey, Lütke, Collison, Armstrong) overtuigen developers. Een manifest van bovenaf zonder eigen ervaring roept weerstand op.",
+  "vraag": "Ga jij zelf met de AI-tools werken die je je team aanraadt?"
+ },
+ {
+  "id": "sluisdeuren",
+  "afleveringen": [
+   {
+    "nr": 20,
+    "tijd": "00:09:46"
+   }
+  ],
+  "beeld": "Een rivier met een reeks sluisdeuren achter elkaar.",
+  "denker": "Bert Slagter, op basis van DNB",
+  "geverifieerd": true,
+  "kern": "Productiviteitswinst van AI stroomt pas als alle voorwaarden tegelijk vervuld zijn. Eén dichte sluis houdt al het water tegen. Bert onderscheidt tien sluizen op drie niveaus: individu, bedrijf en economie.",
+  "lijn": "organisatie",
+  "naam": "Sluisdeuren van productiviteit",
+  "spreker": "Bert",
+  "toegevoegd": 20,
+  "toepassing": "Betaalbare modellen, tijd en budget, urgentie, netto winst, aanpassingsvermogen, juiste prikkels, nieuwe bestemming voor vrijgekomen tijd, verspreiding, groeiruimte en mobiliteit van mensen en kapitaal.",
+  "vraag": "Welke van de tien sluizen staat in jouw organisatie het verst dicht?"
+ },
+ {
+  "id": "standaardisering-agile",
+  "afleveringen": [
+   {
+    "nr": 20,
+    "tijd": "00:25:21"
+   },
+   {
+    "nr": 20,
+    "tijd": "01:30:08"
+   }
+  ],
+  "beeld": "Iedereen bouwt zijn eigen stopcontact tot er een norm komt.",
+  "denker": "Agile Manifesto / Scrum",
+  "geverifieerd": true,
+  "kern": "Nieuwe werkwijzen worden eerst door iedereen apart uitgevonden. Pas als ze gestandaardiseerd zijn (zoals Scrum) verspreiden ze zich en kunnen mensen tussen bedrijven wisselen.",
+  "lijn": "organisatie",
+  "naam": "Standaardiseren van een nieuwe werkwijze",
+  "spreker": "Bert",
+  "toegevoegd": 20,
+  "toepassing": "Er is een 'Scrum voor agents' nodig: een gedeelde methode voor werken met een agent in je team. Die bestaat nog niet.",
+  "vraag": "Welke afspraken over agents zou je vandaag al kunnen standaardiseren?"
+ },
+ {
+  "id": "theory-of-constraints",
+  "afleveringen": [
+   {
+    "nr": 20,
+    "tijd": "01:28:50"
+   }
+  ],
+  "beeld": "Een snelweg met één rijstrook bij een wegwerkzaamheid: extra rijstroken elders helpen niets.",
+  "denker": "Eliyahu Goldratt",
+  "geverifieerd": true,
+  "kern": "Een proces gaat nooit sneller dan zijn smalste stap, de bottleneck. Los je die op, dan schuift de bottleneck door naar een volgende stap. Ophopend werk vóór een stap verraadt waar hij nu zit.",
+  "lijn": "organisatie",
+  "naam": "Theory of Constraints",
+  "spreker": "Bert",
+  "toegevoegd": 20,
+  "toepassing": "AI maakt code schrijven veel sneller, dus de bottleneck verschuift naar specs, reviews, goedkeuring en live zetten. Dat verklaart waarom Proton geen productiviteitswinst ziet.",
+  "vraag": "Waar hoopt in jouw team werk op sinds AI de eerste stap versnelde?"
+ },
+ {
+  "id": "turingtest",
+  "afleveringen": [
+   {
+    "nr": 12,
+    "tijd": "01:14:42"
+   }
+  ],
+  "beeld": "Twee gesloten kamers, één chatscherm.",
+  "denker": "Alan Turing (1950)",
+  "geverifieerd": true,
+  "kern": "Turing vond 'kunnen machines denken?' te vaag om te bespreken. Zijn imitatiespel kijkt alleen naar gedrag: kan een ondervrager via chat de machine niet van de mens onderscheiden, dan geldt de machine als intelligent.",
+  "lijn": "logica",
+  "naam": "Turingtest",
+  "spreker": "Peter",
+  "toegevoegd": 12,
+  "toepassing": "Peter vertelt hoe ELIZA (1966) mensen al gevoelens liet toeschrijven aan een simpel programma, hoe de Loebner-wedstrijd in 1991 begon en hoe Eugene Goostman in 2014 een derde van de jury foppte, wat meteen omstreden was. In hetzelfde artikel beschreef Turing 'child machines' die leren, volgens Stephen Muggleton het eerste grote paper over machine learning.",
+  "vraag": "Moet een klant altijd weten of hij met een AI praat, ook als hij het verschil niet merkt?"
+ },
+ {
+  "id": "universele-machine",
+  "afleveringen": [
+   {
+    "nr": 12,
+    "tijd": "01:18:00"
+   }
+  ],
+  "beeld": "Een mens met ruitjespapier, een potlood en een regelboekje.",
+  "denker": "Alan Turing (1936)",
+  "geverifieerd": true,
+  "kern": "In plaats van een aparte machine per taak bewees Turing dat één eenvoudige machine, met een band van nullen en enen en een paar regels, elke berekenbare functie kan uitvoeren. Het idee van software en de computer met opgeslagen programma.",
+  "lijn": "logica",
+  "naam": "Universele Turingmachine",
+  "spreker": "Peter",
+  "toegevoegd": 12,
+  "toepassing": "Peter: Turing benaderde de computer als papieren simulatie van een mens achter een bureau. De Turingtape is ook onderdeel van de huisstijl van de podcast.",
+  "vraag": "Wat is in jouw domein de 'universele machine': één model voor alles, of gespecialiseerde agents?"
+ }
+]
