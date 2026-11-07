@@ -77,6 +77,11 @@ h1{font:800 clamp(30px,5vw,46px)/1.05 var(--f-display);margin:10px 0 6px;letter-
 .blk h3{font:600 11.5px/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
 .blk p{margin:0;max-width:65ch}
 .src{font:400 12.5px var(--f-mono);color:var(--muted)}
+.listen{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.listen a{display:inline-flex;align-items:center;gap:6px;border:1.5px solid var(--ink);border-radius:999px;padding:5px 11px 3px;font:600 12.5px/1.2 var(--f-mono);color:var(--ink);text-decoration:none}
+.listen a:hover{background:var(--ink);color:var(--bg)}
+.listen a::before{content:"";width:0;height:0;border-left:7px solid currentColor;border-top:4.5px solid transparent;border-bottom:4.5px solid transparent}
+.listen a:focus-visible{outline:3px solid var(--signal);outline-offset:2px}
 .warn{border-left:3px solid var(--signal);padding:6px 10px;font-size:13.5px;color:var(--muted)}
 .levels{display:flex;flex-wrap:wrap;gap:6px}
 .tutor{border-top:1px dashed var(--rule);padding-top:16px;display:grid;gap:10px}
@@ -294,6 +299,19 @@ function renderMeter(){
   if(S.meta?.updatedAt) $("foot").textContent=`Laatst bijgewerkt ${new Date(S.meta.updatedAt).toLocaleDateString("nl-NL",{day:"numeric",month:"long",year:"numeric"})}, t/m aflevering ${S.meta.lastEpisode}. Bron: transcripts van Turing Station via de Turing Station-connector.`;
 }
 
+// Link naar de speler op turingstation.nl, 10 seconden voor het tijdstip zodat je de aanloop hoort.
+function secs(tijd){if(!tijd)return null;const p=String(tijd||"").split(":").map(Number);if(p.some(isNaN)||!p.length)return null;return p.reduce((a,b)=>a*60+b,0)}
+function listenLinks(t){
+  const eps=S.meta?.episodes||{};
+  const items=(t.afleveringen||[]).map(a=>{
+    const slug=eps[String(a.nr)], s=secs(a.tijd);
+    const label=`#${a.nr}${a.tijd?" · "+a.tijd:""}`;
+    if(!slug) return `<span class="src">${esc(label)}</span>`;
+    const href=`https://turingstation.nl/podcast/${encodeURIComponent(slug)}${s!=null?"#t="+Math.max(0,s-10):""}`;
+    return `<a href="${esc(href)}" target="_blank" rel="noopener" aria-label="Luister aflevering ${a.nr}${a.tijd?" vanaf "+a.tijd:""}">${esc(label)}</a>`;
+  });
+  return `<div class="listen">${items.join("")}</div>`;
+}
 function select(id,noScroll){
   if(S.sel!==id){S.chat=[]}
   S.sel=id; renderMap(); renderList(); renderPanel();
@@ -304,7 +322,7 @@ function renderPanel(){
   const t=S.theories.find(x=>x.id===S.sel); const p=$("panel");
   if(!t){p.innerHTML=`<div class="state">Kies een station op de kaart of in de lijst.</div>`;return}
   const col=LINES[t.lijn]?.kleur||"--muted";
-  const src=t.afleveringen.map(a=>`#${a.nr}${a.tijd?" · "+a.tijd:""}`).join("  |  ");
+  const src=listenLinks(t);
   const lvl=S.levels[t.id]||"0";
   p.innerHTML=`
     <div>
@@ -314,7 +332,7 @@ function renderPanel(){
     </div>
     <div class="blk"><h3>Kern</h3><p>${esc(t.kern)}</p></div>
     <div class="blk"><h3>Beeld</h3><p>${esc(t.beeld)}</p></div>
-    <div class="blk"><h3>In de podcast${t.spreker?" · "+esc(t.spreker):""}</h3><p>${esc(t.toepassing)}</p><p class="src">${esc(src)}</p></div>
+    <div class="blk"><h3>In de podcast${t.spreker?" · "+esc(t.spreker):""}</h3><p>${esc(t.toepassing)}</p>${src}</div>
     ${t.geverifieerd?"":`<div class="warn">De context in de aflevering is nog niet nagelezen. De wekelijkse update controleert dit.</div>`}
     <div class="blk"><h3>Denkvraag</h3><p>${esc(t.vraag)}</p></div>
     <div class="blk"><h3>Mijn niveau</h3><div class="levels" id="levels"></div></div>

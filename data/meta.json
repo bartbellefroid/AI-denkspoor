@@ -24,5 +24,27 @@
   17,
   18,
   19
- ]
+ ],
+ "episodes": {
+  "1": "1-glm-5-2-tokenmaxxing-en-claude-mythos-fable",
+  "2": "2-staat-europa-in-2031-volledig-buitenspel-in-de-ai-race",
+  "3": "3-claude-fable-5-is-terug-ai-lokaal-op-je-laptop-en-volt-eist-ai-beleid",
+  "4": "4-second-brain-met-hermes-agent-beleggen-in-ai-en-boekhouden-met-de-moneybird-mcp",
+  "5": "5-openai-s-agents-braken-uit-hun-sandbox-en-hackten-hugging-face",
+  "6": "6-silicon-valley-komt-in-opstand-de-krachtigste-ai-modellen-moeten-open",
+  "7": "7-project-panama-spotgoedkope-modellen-en-de-slippery-vibe-code-slope",
+  "8": "8-codex-podcastradar-openai-agentzwerm-en-16-werkende-ai-virussen",
+  "9": "9-gaan-we-ooit-de-echte-prijs-voor-ai-betalen",
+  "10": "10-open-source-ai-china-s-robot-olympics-en-de-singularity",
+  "11": "11-bouwden-ai-agents-een-geheime-beschaving-tijdens-de-hugging-face-hack",
+  "12": "12-agi-is-er-volgens-nvidia-ceo-astra-componeert-bach-en-wie-was-alan-turing",
+  "13": "13-gaat-ai-de-mensheid-echt-uitroeien",
+  "14": "14-beslismachine-jev-openai-sloopt-de-wiskunde-en-ai-films-als-kijktips",
+  "15": "15-wat-is-jouw-werk-nog-waard-als-ai-alles-in-een-prompt-kan-maken",
+  "16": "16-openai-dot-is-een-kijkje-in-de-toekomst-de-ai-assistent-die-echt-je-klusjes-doet",
+  "17": "17-schelden-op-je-ai-agent-kan-je-straks-je-account-kosten",
+  "18": "18-werk-je-beter-met-een-ai-agent-of-met-een-heel-team-van-agents",
+  "19": "19-wat-gebeurt-er-eigenlijk-met-je-gegevens-als-je-ai-gebruikt",
+  "20": "20-waarom-maakt-ai-ons-nog-niet-productiever"
+ }
 }
