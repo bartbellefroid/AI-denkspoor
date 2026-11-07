@@ -54,6 +54,9 @@ h1{font:800 clamp(30px,5vw,46px)/1.05 var(--f-display);margin:10px 0 6px;letter-
 .stn.dim{opacity:.18}
 .stn .badge{fill:var(--signal)}
 .state{padding:40px 20px;text-align:center;color:var(--muted)}
+.tip{position:fixed;z-index:20;max-width:min(280px,calc(100vw - 32px));background:var(--ink);color:var(--bg);border-radius:8px;padding:10px 12px 8px;font-size:13.5px;line-height:1.45;pointer-events:none;box-shadow:0 6px 20px rgba(0,0,0,.18)}
+.tip b{display:block;font:800 13px/1.2 var(--f-display);margin-bottom:3px;color:var(--signal)}
+@media (prefers-reduced-motion:no-preference){.tip{animation:tipIn .12s ease-out}@keyframes tipIn{from{opacity:0;transform:translateY(4px)}}}
 .grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:24px;align-items:start}
 @media (max-width:860px){.grid{grid-template-columns:1fr}}
 .list{display:grid;gap:8px}
@@ -139,6 +142,7 @@ footer{color:var(--muted);font-size:12.5px;font-family:var(--f-mono)}
   </section>
 
   <div class="map" id="map"><div class="state" id="mapState">Lijnenkaart laden…</div></div>
+  <div class="tip" id="tip" role="tooltip" hidden></div>
 
   <div class="grid">
     <div class="list" id="list" aria-label="Alle stations"></div>
@@ -223,10 +227,45 @@ function renderMap(){
   s+=`</svg>`;
   map.innerHTML=s;
   map.querySelectorAll(".stn").forEach(g=>{
-    g.onclick=()=>select(g.dataset.id);
-    g.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();select(g.dataset.id)}};
+    g.onpointerdown=e=>{S.lastPointer=e.pointerType};
+    g.onclick=()=>{
+      const id=g.dataset.id;
+      // Aanraken: eerste tik toont de kern, tweede tik op hetzelfde station opent de details.
+      if(S.lastPointer==="touch"&&S.tip!==id){select(id,true);showTip(id);return}
+      if(S.lastPointer==="touch"){hideTip();select(id);return}
+      select(id,true);showTip(id);
+    };
+    g.onkeydown=e=>{S.lastPointer="key";if(e.key==="Enter"||e.key===" "){e.preventDefault();select(g.dataset.id);showTip(g.dataset.id)}};
+    g.onpointerenter=e=>{if(e.pointerType==="mouse")showTip(g.dataset.id)};
+    g.onpointerleave=e=>{if(e.pointerType==="mouse")hideTip()};
+    g.onfocus=()=>{if(g.matches(":focus-visible"))showTip(g.dataset.id)};
+    g.onblur=()=>{if(S.lastPointer!=="touch")hideTip()};
   });
+  if(S.tip) placeTip();
 }
+
+// ---------- korte kern bij een station ----------
+function shortKern(t){
+  const zinnen=String(t.kern||"").match(/[^.!?]+[.!?]+(\s|$)/g)||[t.kern||""];
+  let s=zinnen[0].trim();
+  if(s.length<70&&zinnen[1]) s+=" "+zinnen[1].trim();
+  return s;
+}
+function placeTip(){
+  const tip=$("tip"), g=$("map").querySelector(`.stn[data-id="${CSS.escape(S.tip)}"]`), t=S.theories.find(x=>x.id===S.tip);
+  if(!g||!t){hideTip();return}
+  tip.innerHTML=`<b>${esc(t.naam)}</b>${esc(shortKern(t))}${S.lastPointer==="touch"?'<span style="display:block;margin-top:4px;opacity:.7;font-size:12px">Tik nog eens voor details</span>':""}`; tip.hidden=false;
+  const r=g.querySelector("circle.ring").getBoundingClientRect(), w=tip.offsetWidth, h=tip.offsetHeight, pad=12;
+  let x=r.left+r.width/2-w/2; x=Math.max(pad,Math.min(x,innerWidth-w-pad));
+  let y=r.top-h-10; if(y<pad) y=r.bottom+10;
+  tip.style.left=x+"px"; tip.style.top=y+"px";
+}
+function showTip(id){S.tip=id;placeTip()}
+function hideTip(){S.tip=null;$("tip").hidden=true}
+document.addEventListener("pointerdown",e=>{if(!e.target.closest?.(".stn"))hideTip()});
+$("map").addEventListener("scroll",hideTip,{passive:true});
+addEventListener("scroll",hideTip,{passive:true});
+addEventListener("resize",hideTip);
 
 function levelPill(id){
   const l=S.levels[id]||"0";
@@ -255,10 +294,10 @@ function renderMeter(){
   if(S.meta?.updatedAt) $("foot").textContent=`Laatst bijgewerkt ${new Date(S.meta.updatedAt).toLocaleDateString("nl-NL",{day:"numeric",month:"long",year:"numeric"})}, t/m aflevering ${S.meta.lastEpisode}. Bron: transcripts van Turing Station via de Turing Station-connector.`;
 }
 
-function select(id){
+function select(id,noScroll){
   if(S.sel!==id){S.chat=[]}
   S.sel=id; renderMap(); renderList(); renderPanel();
-  if(matchMedia("(max-width:860px)").matches) $("panel").scrollIntoView({behavior:"smooth",block:"start"});
+  if(!noScroll&&matchMedia("(max-width:860px)").matches) $("panel").scrollIntoView({behavior:"smooth",block:"start"});
 }
 
 function renderPanel(){
