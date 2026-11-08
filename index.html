@@ -425,9 +425,32 @@ function errText(e){
     default: return "Er ging iets mis bij het ophalen van het antwoord. Probeer het opnieuw.";
   }
 }
+// Zonder ingebouwde Claude (GitHub Pages, of een weergave zonder die mogelijkheid):
+// de knoppen openen een nieuw gesprek op claude.ai met de vraag al ingevuld.
+function openInClaude(text){
+  const a=document.createElement("a");
+  a.href="https://claude.ai/new?q="+encodeURIComponent(text);a.target="_blank";a.rel="noopener";
+  document.body.append(a);a.click();a.remove();
+}
+function setupTutorLink(t){
+  const tutor=$("tutor"), note=$("tnote");
+  $("stop").hidden=true; $("quiz").hidden=true;
+  note.textContent="Opent een gesprek met Claude in een nieuw tabblad, met de vraag al ingevuld.";
+  const quiz=`${RULES}\n\n${ctx(t)}\n\n${ME}\n\nStel me één open toetsvraag die test of ik deze theorie echt begrijp (toepassen, niet opzeggen). Wacht op mijn antwoord. Beoordeel het dan eerlijk: begin met Goed, Bijna of Nog niet, zeg wat klopt en wat ontbreekt, en geef een modelantwoord van max. 3 zinnen.`;
+  tutor.querySelectorAll("[data-act]").forEach(b=>b.onclick=()=>{
+    const act=b.dataset.act;
+    openInClaude(act==="toets"?quiz:prompts(t,act));
+  });
+  const ask=()=>{
+    const v=$("ask").value.trim(); if(!v){note.textContent="Typ eerst je vraag.";return}
+    openInClaude(`${RULES}\n\n${ctx(t)}\n\n${ME}\n\nMijn vraag over deze theorie: ${v}`);
+    $("ask").value="";
+  };
+  $("askBtn").onclick=ask; $("ask").onkeydown=e=>{if(e.key==="Enter")ask()};
+}
 function setupTutor(t){
   const tutor=$("tutor"), out=$("out"), note=$("tnote"), stop=$("stop");
-  if(!S.sample){tutor.querySelectorAll("button,input").forEach(b=>b.disabled=true);note.textContent=S.local?"Oefenen met Claude werkt in de Claude-versie van Denkspoor. Hier kun je wel lezen, luisteren en je voortgang bijhouden.":"Oefenen met Claude werkt als je deze pagina in Claude opent.";return}
+  if(!S.sample){setupTutorLink(t);return}
   let quizQ=null;
   const busy=on=>{tutor.querySelectorAll("button:not(#stop),input").forEach(b=>b.disabled=on);stop.hidden=!on};
   stop.onclick=()=>ctl?.abort();
@@ -437,7 +460,7 @@ function setupTutor(t){
       const r=await S.sample(input,{signal:ctl.signal,onText:({text})=>{out.textContent=text},...opts});
       if(r.truncated) note.textContent="Antwoord afgekapt. Vraag om minder tegelijk.";
       return r.text;
-    }catch(e){out.textContent=e?.text||"";note.textContent=errText(e);if(e?.code==="not_granted"||e?.code==="sampling_disabled"){S.sample=null}return null}
+    }catch(e){out.textContent=e?.text||"";note.textContent=errText(e);if(e?.code==="not_granted"||e?.code==="sampling_disabled"){S.sample=null;setupTutorLink(t);note.textContent="Claude kan hier niet direct antwoorden. De knoppen openen nu een gesprek met Claude in een nieuw tabblad."}return null}
     finally{busy(false)}
   }
   tutor.querySelectorAll("[data-act]").forEach(b=>b.onclick=async()=>{
