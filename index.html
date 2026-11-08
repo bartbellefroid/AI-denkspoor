@@ -71,6 +71,9 @@ h1{font:800 clamp(30px,5vw,46px)/1.05 var(--f-display);margin:10px 0 6px;letter-
 .pill.new{background:var(--signal);border-color:var(--signal);color:#14202e}
 .panel{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:22px clamp(16px,3vw,28px);display:grid;gap:18px;position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px)}
 @media (max-width:860px){.panel{position:static}}
+.back{display:none;align-items:center;gap:6px;justify-self:start;border:1.5px solid var(--ink);background:var(--surface);color:var(--ink);border-radius:999px;padding:7px 14px 5px;font:600 13px/1.2 var(--f-body);cursor:pointer}
+.back:focus-visible{outline:3px solid var(--signal);outline-offset:2px}
+@media (max-width:860px){.back{display:inline-flex}}
 .panel h2{font:800 28px/1.1 var(--f-display);margin:4px 0 2px;text-wrap:balance}
 .eyebrow{font:600 12px/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .who{color:var(--muted);margin:0}
@@ -312,10 +315,19 @@ function listenLinks(t){
   });
   return `<div class="listen">${items.join("")}</div>`;
 }
+// Terug naar waar je was: de plek op de pagina én het station in beeld op de kaart.
+function goBack(){
+  hideTip(); ctl?.abort?.();
+  const y=S.returnY; S.returnY=null;
+  if(y!=null) scrollTo({top:y,behavior:"smooth"});
+  else $("map").scrollIntoView({behavior:"smooth",block:"start"});
+  const g=$("map").querySelector(`.stn[data-id="${CSS.escape(S.sel||"")}"]`);
+  if(g){const m=$("map"),r=g.getBoundingClientRect(),mr=m.getBoundingClientRect();m.scrollTo({left:m.scrollLeft+r.left-mr.left-mr.width/2,behavior:"smooth"})}
+}
 function select(id,noScroll){
   if(S.sel!==id){S.chat=[]}
   S.sel=id; renderMap(); renderList(); renderPanel();
-  if(!noScroll&&matchMedia("(max-width:860px)").matches) $("panel").scrollIntoView({behavior:"smooth",block:"start"});
+  if(!noScroll&&matchMedia("(max-width:860px)").matches){S.returnY=scrollY;$("panel").scrollIntoView({behavior:"smooth",block:"start"})}
 }
 
 function renderPanel(){
@@ -325,6 +337,7 @@ function renderPanel(){
   const src=listenLinks(t);
   const lvl=S.levels[t.id]||"0";
   p.innerHTML=`
+    <button class="back" type="button" data-back>← Terug naar de kaart</button>
     <div>
       <div class="eyebrow" style="color:var(${col})">${esc(LINES[t.lijn]?.naam||t.lijn)} ${isNew(t)?'<span class="pill new">nieuw in #'+t.toegevoegd+'</span>':""}</div>
       <h2>${esc(t.naam)}</h2>
@@ -366,6 +379,8 @@ function renderPanel(){
   let nt; $("note").oninput=e=>{S.notes[t.id]=e.target.value;clearTimeout(nt);nt=setTimeout(()=>{saveProgress();$("noteState").textContent="Opgeslagen"},900)};
   $("note").disabled=!S.uid;
   setupTutor(t);
+  p.insertAdjacentHTML("beforeend",`<button class="back" type="button" data-back>← Terug naar de kaart</button>`);
+  p.querySelectorAll("[data-back]").forEach(b=>b.onclick=goBack);
 }
 
 // ---------- voortgang per kijker ----------
