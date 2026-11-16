@@ -34,6 +34,12 @@ header{display:flex;flex-wrap:wrap;gap:16px 32px;align-items:end;justify-content
 .sign i{width:10px;height:10px;border-radius:50%;background:var(--signal);display:block}
 h1{font:800 clamp(30px,5vw,46px)/1.05 var(--f-display);margin:10px 0 6px;letter-spacing:-.01em;text-wrap:balance}
 .lede{color:var(--muted);max-width:60ch;margin:0}
+.hright{display:flex;flex-direction:column;align-items:flex-end;gap:12px}
+.refresh{display:inline-flex;align-items:center;gap:6px;border:1.5px solid var(--rule);background:var(--surface);color:var(--ink);border-radius:999px;padding:6px 12px 4px;font:600 13px/1 var(--f-body);cursor:pointer}
+.refresh svg{width:14px;height:14px}
+.refresh:hover{border-color:var(--ink)}
+.refresh[aria-busy="true"] svg{animation:spin .8s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+@media (max-width:600px){.hright{align-items:flex-start}}
 .meter{display:flex;gap:20px;font-family:var(--f-mono);font-size:13px;color:var(--muted)}
 .meter b{display:block;font:800 26px/1 var(--f-display);color:var(--ink);font-variant-numeric:tabular-nums}
 .controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
@@ -122,10 +128,13 @@ footer{color:var(--muted);font-size:12.5px;font-family:var(--f-mono)}
       <h1>Denkspoor</h1>
       <p class="lede">Theorieën, wetten en effecten die in de podcast langskomen, als stations op vier lijnen. Kies een station voor uitleg, de context uit de aflevering en oefening met Claude.</p>
     </div>
-    <div class="meter" aria-live="polite">
-      <div><b id="mTotal">–</b>stations</div>
-      <div><b id="mDone">–</b>begrepen</div>
-      <div><b id="mEp">–</b>t/m aflevering</div>
+    <div class="hright">
+      <button class="refresh" id="refresh" type="button" title="Haal de nieuwste versie van de pagina en stations op"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-2.64-6.36"/><path d="M21 3v6h-6"/></svg>Verversen</button>
+      <div class="meter" aria-live="polite">
+        <div><b id="mTotal">–</b>stations</div>
+        <div><b id="mDone">–</b>begrepen</div>
+        <div><b id="mEp">–</b>t/m aflevering</div>
+      </div>
     </div>
   </header>
 
@@ -597,6 +606,13 @@ $("rExport").onclick=async()=>{
 };
 
 // ---------- opstarten ----------
+// Verversen: handig als de pagina als app op het beginscherm staat (daar is geen herlaadknop).
+// Voegt een tijdstempel aan de URL toe zodat de browser niet de oude versie uit de cache toont.
+$("refresh").onclick=e=>{
+  e.currentTarget.setAttribute("aria-busy","true");
+  try{const u=new URL(location.href);u.searchParams.set("v",Date.now());location.replace(u.toString())}
+  catch{location.reload()}
+};
 $("q").oninput=e=>{S.q=e.target.value.trim();renderMap();renderList()};
 renderChips();
 // Buiten Claude (bijv. GitHub Pages): data uit de repo, voortgang in deze browser, geen Claude-oefenen.
@@ -604,7 +620,7 @@ async function startLocal(){
   S.local=true; S.uid="local"; S.sample=null;
   try{const p=JSON.parse(localStorage.getItem("denkspoor-progress")||"{}");S.levels=p.levels||{};S.notes=p.notes||{}}catch{}
   try{
-    const [t,m]=await Promise.all([fetch("data/theories.json").then(r=>r.json()),fetch("data/meta.json").then(r=>r.json()).catch(()=>null)]);
+    const [t,m]=await Promise.all([fetch("data/theories.json",{cache:"no-store"}).then(r=>r.json()),fetch("data/meta.json",{cache:"no-store"}).then(r=>r.json()).catch(()=>null)]);
     S.theories=t.filter(x=>x.naam); S.meta=m; renderAll();
   }catch{$("mapState").textContent="De stations konden niet worden geladen uit data/theories.json."}
 }
