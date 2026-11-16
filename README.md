@@ -32,6 +32,6 @@ Oefenen met Claude (uitleg, toepassen op je werk, toetsvragen) werkt alleen in d
 
 ## Bron en status
 
-Gebaseerd op de transcripts van Turing Station, t/m aflevering 20. Afleveringen 2, 4, 14 en 16 t/m 19 zijn nog niet verwerkt. Stations met `"geverifieerd": false` zijn alleen via een zoekresultaat gevonden; de context in de aflevering is nog niet nagelezen.
+Gebaseerd op de transcripts van Turing Station, t/m aflevering 21. Afleveringen 2, 4, 14 en 16 t/m 19 zijn nog niet verwerkt. Stations met `"geverifieerd": false` zijn alleen via een zoekresultaat gevonden; de context in de aflevering is nog niet nagelezen.
 
 Dit is een persoonlijk project en geen officiële uitgave van Turing Station.
