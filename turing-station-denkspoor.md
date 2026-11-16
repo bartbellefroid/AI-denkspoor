@@ -1,6 +1,6 @@
 # Turing Station Denkspoor
 
-Theorieën, wetten en effecten die in de Nederlandse AI-podcast Turing Station (Bart Mol, Bert Slagter en Peter Slagter) worden aangehaald. Stand: 6 november 2026, t/m aflevering 20 (afleveringen 2, 4, 14 en 16-19 nog niet verwerkt).
+Theorieën, wetten en effecten die in de Nederlandse AI-podcast Turing Station (Bart Mol, Bert Slagter en Peter Slagter) worden aangehaald. Stand: 16 november 2026, t/m aflevering 21 (afleveringen 2, 4, 14 en 16-19 nog niet verwerkt).
 
 Bron: transcripts van Turing Station. Stations met "nog niet nagelezen" zijn alleen via een zoekresultaat gevonden.
 
@@ -248,6 +248,48 @@ Suggestie voor een NotebookLM-audio-overzicht: bespreek per lijn de ideeën, leg
 
 **Denkvraag.** Groeit jouw organisatie, of staat ze stil? Wat betekent dat voor hoe AI-winst landt?
 
+### Hoge prijzen zijn het beste medicijn tegen hoge prijzen
+
+- Denker of bron: Grondstoffenwijsheid (economie)
+- Afleveringen: #21 (00:22:34)
+- Genoemd door: Bert
+
+**Kern.** Een hoge prijs lost zichzelf op. Kopers stellen uit, nemen minder of zoeken een alternatief, en aanbieders bouwen nieuwe capaciteit bij. Daardoor zakt de prijs weer, soms zelfs tot overcapaciteit.
+
+**Beeld.** Een dure markt die zichzelf afkoelt: de klanten blijven weg en de nieuwe fabrieken komen eraan.
+
+**In de podcast.** Na Sam Altmans opmerking over 'verspild' DRAM-geheugen in pc's legt Bert uit dat geheugenprijzen niet verder stijgen. Apple, Dell, HP, Lenovo en anderen verkopen minder apparaten door de hogere prijzen, en geheugenmakers als Micron en SK Hynix zijn van hun top gezakt. Bert verwacht geen ineenstorting, wel een hoog plateau.
+
+**Denkvraag.** Welke kosten van AI (tokens, rekenkracht, abonnementen) gaan in jouw omgeving vanzelf het gebruik afremmen?
+
+### Neerwaartse spiraal van koers en kapitaal
+
+- Denker of bron: Financieringsmechanisme op de beurs; verwant aan reflexiviteit van George Soros (niet genoemd)
+- Afleveringen: #21 (01:03:36)
+- Genoemd door: Bert
+
+**Kern.** Een hoge beurskoers maakt het makkelijk om geld op te halen met nieuwe aandelen of goedkope leningen. Daalt de koers, dan wordt geld ophalen moeilijker, worden de risico's groter en daalt de koers verder. Koers en financiering versterken elkaar, in beide richtingen.
+
+**Beeld.** Een fietser die bergaf remt, maar merkt dat zijn remmen slechter worden naarmate hij sneller gaat.
+
+**In de podcast.** Bert legt uit waarom beleggers na de midterms in paniek raakten: AI-bedrijven en neoclouds moeten blijven investeren en zijn afhankelijk van kapitaal. Fondsen met veel geleend geld moesten halsoverkop verkopen. Dat betekent niet dat de bedrijven omvallen, maar het mechanisme kan een correctie uitvergroten.
+
+**Denkvraag.** Van welke externe financiering of welk budget is jouw AI-project afhankelijk, en wat gebeurt er als dat krimpt?
+
+### Preventieparadox
+
+- Denker of bron: Millenniumbug en ozonlaag als voorbeelden; bekend als preparedness paradox (niet bij naam genoemd)
+- Afleveringen: #21 (00:28:27)
+- Genoemd door: Bert en Bart
+
+**Kern.** Als een groot gevaar op tijd wordt aangepakt, gebeurt er achteraf niets. Dan lijkt het alsof de waarschuwing overdreven was, terwijl juist de aanpak het probleem oploste.
+
+**Beeld.** De jaarwisseling naar 2000: de wereld kijkt gespannen, er gebeurt niets, en daarna heet het 'ophef om niets'.
+
+**In de podcast.** Bert vergelijkt de cyberangst van september (AI vindt zoveel lekken dat het internet zou instorten) met de millenniumbug. OpenAI vond met GPT-6 Cyber 948 Linux-kwetsbaarheden en Anthropic deed formele verificatie van meer dan honderd open source libraries. Misschien is dat het medicijn. Bart vult aan met het gat in de ozonlaag, dat verdween doordat de wereld stopte met CFK's.
+
+**Denkvraag.** Welk risico in jouw werk wordt nu actief aangepakt, en hoe voorkom je dat het straks als 'overdreven' wordt weggezet?
+
 ## Lijn: Technologie & tempo
 
 ### Emergentie
@@ -281,7 +323,7 @@ Suggestie voor een NotebookLM-audio-overzicht: bespreek per lijn de ideeën, leg
 ### Singulariteit
 
 - Denker of bron: Ray Kurzweil, The Singularity is Near (2005)
-- Afleveringen: #10
+- Afleveringen: #10, #21 (00:13:36)
 - Status: context nog niet nagelezen
 
 **Kern.** Het punt waarop technologische groei zo snel gaat dat de toekomst onvoorspelbaar wordt, doordat machines zichzelf verbeteren. Kurzweil voorspelde 2045.
@@ -347,6 +389,34 @@ Suggestie voor een NotebookLM-audio-overzicht: bespreek per lijn de ideeën, leg
 **In de podcast.** Wat nu te duur is, is straks bijna gratis. Aan de frontier blijft compute schaars, omdat labs steeds meer features toevoegen.
 
 **Denkvraag.** Welke use case is nu te duur, maar over een half jaar haalbaar?
+
+### Hype is niet hetzelfde als bubbel
+
+- Denker of bron: Economische geschiedenis: dotcombubbel en spoorwegbubbel
+- Afleveringen: #21 (01:22:37)
+- Genoemd door: Bert
+
+**Kern.** Hype gaat over het overschatten van wat een technologie oplevert. Een bubbel gaat over overinvestering: te hoge waarderingen van bedrijven. Een bubbel kan knappen terwijl de technologie nuttig blijft. Na de dotcomcrash bleven de glasvezelkabels liggen, na de spoorwegbubbel de rails.
+
+**Beeld.** De zeepbel knapt, maar de rails blijven liggen.
+
+**In de podcast.** Bert maakt het onderscheid na de beurscrash. AI is volgens de hosts geen hype: tantes en neefjes gebruiken ChatGPT echt (Bart). Of er een bubbel is, is lastiger. Bert verwacht dat neoclouds failliet gaan ('onkruid wieden'), maar ziet niet dat alles van ASML tot Amazon wegvalt zoals in 2000. Bart vreest dat het wel misgaat als OpenAI of Anthropic geen geld meer kunnen ophalen.
+
+**Denkvraag.** Als morgen de waarderingen van AI-bedrijven halveren, welke AI-toepassingen in jouw werk blijven dan gewoon bestaan?
+
+### Recursieve zelfverbetering (RSI)
+
+- Denker of bron: Begrip uit AI-veiligheidsonderzoek; METR-onderzoek bij Anthropic
+- Afleveringen: #21 (00:12:36)
+- Genoemd door: Bert
+
+**Kern.** Als AI helpt om betere AI te bouwen, wordt de tijd tussen verdubbelingen in vaardigheid korter. Eén knik in de groeicurve is nog geen RSI. Daarvoor moet de versnelling zichzelf blijven versterken (compounding), waardoor de curve steeds steiler wordt.
+
+**Beeld.** Een sneeuwbal die niet alleen groeit, maar steeds sneller groeit naarmate hij groter wordt.
+
+**In de podcast.** Bert bespreekt METR: de laatste twaalf maanden ging de ontwikkeling ongeveer twee keer zo snel, niet door meer rekenkracht maar door software, algoritmen en AI-ondersteunde R&D. METR noemt het nog geen RSI: een eenmalige knik (bijvoorbeeld door agentic coding) of het begin van compounding is met de beschikbare data niet te onderscheiden.
+
+**Denkvraag.** Hoe zou je in je eigen werk merken of AI je eenmalig sneller maakt, of dat de versnelling zichzelf blijft versterken?
 
 ## Lijn: Logica & geschiedenis
 

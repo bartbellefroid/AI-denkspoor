@@ -1,6 +1,6 @@
 {
- "lastEpisode": 20,
- "updatedAt": "2026-11-06T15:50:00+01:00",
+ "lastEpisode": 21,
+ "updatedAt": "2026-11-16T09:00:00+01:00",
  "scanned": [
   1,
   3,
@@ -14,7 +14,8 @@
   12,
   13,
   15,
-  20
+  20,
+  21
  ],
  "backlog": [
   2,
@@ -45,6 +46,7 @@
   "17": "17-schelden-op-je-ai-agent-kan-je-straks-je-account-kosten",
   "18": "18-werk-je-beter-met-een-ai-agent-of-met-een-heel-team-van-agents",
   "19": "19-wat-gebeurt-er-eigenlijk-met-je-gegevens-als-je-ai-gebruikt",
-  "20": "20-waarom-maakt-ai-ons-nog-niet-productiever"
+  "20": "20-waarom-maakt-ai-ons-nog-niet-productiever",
+  "21": "21-is-de-ai-bubbel-geknapt-na-de-amerikaanse-midterms"
  }
 }
