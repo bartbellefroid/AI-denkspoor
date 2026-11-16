@@ -16,6 +16,7 @@ Per station: de kern, een beeld, hoe het in de podcast langskwam (aflevering, ti
 - **Lezen**: klik een station op de kaart of in de lijst.
 - **Luisteren**: Denkspoor Radio leest de stations voor als gesprek tussen presentator en uitlegger, met de voorleesstem van je browser.
 - **Voortgang**: per station "Nieuw voor mij", "Snap ik" of "Kan ik uitleggen", plus een eigen notitie. Op GitHub Pages wordt dit in je eigen browser bewaard.
+- **Verversen**: de knop "Verversen" rechtsboven haalt de nieuwste versie van de pagina en de stations op. Handig als je de pagina als app op je beginscherm hebt gezet, waar geen herlaadknop is. Je voortgang blijft bewaard.
 - **NotebookLM**: de knop "Bestand voor NotebookLM" downloadt alle stations als Markdown. Ook beschikbaar als [`turing-station-denkspoor.md`](turing-station-denkspoor.md).
 
 Oefenen met Claude (uitleg, toepassen op je werk, toetsvragen) werkt alleen in de Claude-versie van de pagina.
