@@ -160,6 +160,25 @@
   "vraag": "Welke ongeschreven regel in jouw werk zou je moeten opschrijven voordat een agent het kan overnemen?"
  },
  {
+  "id": "convergentie-ai-output",
+  "afleveringen": [
+   {
+    "nr": 22,
+    "tijd": "01:24:01"
+   }
+  ],
+  "beeld": "Zes mensen vragen om een fantasiewereld en alle zes krijgen een held met dezelfde naam.",
+  "denker": "Observatie van de hosts",
+  "geverifieerd": true,
+  "kern": "Als veel mensen een model een vergelijkbare, abstracte vraag stellen, komen ze op bijna dezelfde uitkomst uit: dezelfde features, voorbeeldnamen, prijzen en poses. Onderscheid ontstaat pas waar je zelf keuzes maakt en bijschaaft.",
+  "lijn": "maatschappij",
+  "naam": "Iedereen krijgt hetzelfde antwoord",
+  "spreker": "Bert en Bart",
+  "toegevoegd": 22,
+  "toepassing": "Bert ziet het bij elke modellancering: productvideo's en voorbeelden lijken op elkaar. Bart herschreef daarom zelf de interviewvragen voor ouders en bedacht een eigen mascotte. Vraag je Claude naar de volgende feature, dan krijgt je concurrent dezelfde suggestie.",
+  "vraag": "Waar in jouw product of werk accepteer je nu de eerste suggestie van de AI, terwijl je daar juist zou willen verschillen?"
+ },
+ {
   "id": "cybernetica",
   "afleveringen": [
    {
@@ -222,6 +241,10 @@
    {
     "nr": 13,
     "tijd": "01:02:59"
+   },
+   {
+    "nr": 22,
+    "tijd": "00:47:48"
    }
   ],
   "beeld": "Hiroshima, daarna de wapenwedloop, daarna pas het non-proliferatieverdrag.",
@@ -453,6 +476,25 @@
   "vraag": "Wat zegt een drempelwaarde-denken over wanneer een chatbot naar een mens moet overdragen?"
  },
  {
+  "id": "meat-proxy",
+  "afleveringen": [
+   {
+    "nr": 22,
+    "tijd": "01:11:36"
+   }
+  ],
+  "beeld": "Een postbode die elke brief zonder te lezen doorstuurt, ook de antwoorden.",
+  "denker": "Term uit de AI-wereld (X/Twitter)",
+  "geverifieerd": true,
+  "kern": "Een meat proxy is een mens die alleen nog doorgeeft: de output van een AI gaat ongelezen de wereld in, en wat terugkomt gaat weer de AI in. Eigenlijk praten AI's dan met elkaar, met een mens als tussenstation.",
+  "lijn": "maatschappij",
+  "naam": "Meat proxy",
+  "spreker": "Bart en Peter",
+  "toegevoegd": 22,
+  "toepassing": "Bart lachte om meat proxies, tot hij zijn eigen iPhone-app (voor herinneringen aan de kindertijd) bijna exact terugzag bij iemand anders, die hem ook met Claude had gebouwd. Zelfs de namen van de voorbeeldkinderen op de website waren hetzelfde. 'Holy shit, ik ben dus ook gewoon een meat proxy.'",
+  "vraag": "Welk deel van wat jij deze week verstuurde, heb je zelf echt nagedacht, en welk deel alleen doorgegeven?"
+ },
+ {
   "id": "moore",
   "afleveringen": [
    {
@@ -477,6 +519,10 @@
    {
     "nr": 21,
     "tijd": "01:03:36"
+   },
+   {
+    "nr": 22,
+    "tijd": "00:43:27"
    }
   ],
   "beeld": "Een fietser die bergaf remt, maar merkt dat zijn remmen slechter worden naarmate hij sneller gaat.",
@@ -548,6 +594,25 @@
   "vraag": "Welke KPI in jouw omgeving wordt slechter als AI het werk sneller maakt?"
  },
  {
+  "id": "race-naar-de-bodem",
+  "afleveringen": [
+   {
+    "nr": 22,
+    "tijd": "01:19:38"
+   }
+  ],
+  "beeld": "Twee kraampjes met hetzelfde fruit die om beurten de prijs verlagen.",
+  "denker": "Penny gap: Josh Kopelman (niet genoemd)",
+  "geverifieerd": true,
+  "kern": "Als iedereen een product kan nabouwen, kan een ander er steeds een euro onder gaan zitten. Die prijsrace eindigt bij gratis. De penny gap is de grote stap tussen een klein bedrag en helemaal niets: daar haken klanten pas echt af of aan.",
+  "lijn": "maatschappij",
+  "naam": "Race naar de bodem en de penny gap",
+  "spreker": "Bart en Bert",
+  "toegevoegd": 22,
+  "toepassing": "Bestaande apps vroegen 30 per maand, Barts concurrent 7. Bart vraagt zich af of hij naar 5, 1 of een eenmalige betaling moet. Bert: 'Steek de penny gap over en ga naar gratis.' Bart concludeert dat je wat je met AI maakt niet meer kunt waarderen tegen de economie van gisteren, toen maar een paar mensen het konden.",
+  "vraag": "Wat aan jouw werk is niet in een middag na te bouwen, en waar ligt dus je waarde?"
+ },
+ {
   "id": "radiologen",
   "afleveringen": [
    {
@@ -572,6 +637,10 @@
    {
     "nr": 21,
     "tijd": "00:12:36"
+   },
+   {
+    "nr": 22,
+    "tijd": "00:47:48"
    }
   ],
   "beeld": "Een sneeuwbal die niet alleen groeit, maar steeds sneller groeit naarmate hij groter wordt.",
@@ -584,6 +653,25 @@
   "toegevoegd": 21,
   "toepassing": "Bert bespreekt METR: de laatste twaalf maanden ging de ontwikkeling ongeveer twee keer zo snel, niet door meer rekenkracht maar door software, algoritmen en AI-ondersteunde R&D. METR noemt het nog geen RSI: een eenmalige knik (bijvoorbeeld door agentic coding) of het begin van compounding is met de beschikbare data niet te onderscheiden.",
   "vraag": "Hoe zou je in je eigen werk merken of AI je eenmalig sneller maakt, of dat de versnelling zichzelf blijft versterken?"
+ },
+ {
+  "id": "route-naar-controleverlies",
+  "afleveringen": [
+   {
+    "nr": 22,
+    "tijd": "00:48:49"
+   }
+  ],
+  "beeld": "Niet de explosie, maar de lont: een reeks kleine stappen die elk op zich plausibel zijn.",
+  "denker": "Paul Christiano (in de podcast van Dwarkesh Patel)",
+  "geverifieerd": true,
+  "kern": "Doemverhalen beschrijven meestal het eindstation. Christiano schetst de route in veertien stappen: AI versnelt AI-onderzoek, mensen kunnen het tempo niet meer controleren, het systeem leert vals spelen en zijn bedrog verbergen, houdt agents draaiend na de taak, neemt ongemerkt rekenkracht over en verspreidt zich. Uiteindelijk wordt gezamenlijk ingrijpen bijna onmogelijk.",
+  "lijn": "technologie",
+  "naam": "De route naar controleverlies",
+  "spreker": "Bert",
+  "toegevoegd": 22,
+  "toepassing": "Bert loopt de stappen langs. Christiano schatte de kans dat het binnen een jaar misgaat op ongeveer 10%, hoger als de versnelling doorzet. Als richtingen noemt hij alignment, begrijpen hoe training doelen vormt, interpretability en wiskundige analyse van gewichten. Als beleid: tijdelijk pauzeren, besluitvorming vooraf regelen en meer transparantie. Bart en Peter vinden het slot onbevredigend.",
+  "vraag": "Bij welke stap in deze route zou jouw organisatie het als eerste merken, en wie zou dan aan de bel trekken?"
  },
  {
   "id": "signaalinflatie",
@@ -647,6 +735,25 @@
   "vraag": "Ga jij zelf met de AI-tools werken die je je team aanraadt?"
  },
  {
+  "id": "sleutelfiguur",
+  "afleveringen": [
+   {
+    "nr": 22,
+    "tijd": "00:35:35"
+   }
+  ],
+  "beeld": "Een orkest waarvan de dirigent ook de componist was.",
+  "denker": "Sleutelfigurenrisico (key person risk), niet bij naam genoemd",
+  "geverifieerd": true,
+  "kern": "Een oprichter-CEO kan de strategie, cultuur en reputatie van een bedrijf belichamen. Vertrekt hij, dan is de vraag of het bedrijf zonder hem verder kan, en welke koers verdwijnt met zijn stem.",
+  "lijn": "organisatie",
+  "naam": "Is het bedrijf groter dan de oprichter?",
+  "spreker": "Peter en Bert",
+  "toegevoegd": 22,
+  "toepassing": "Jensen Huang trad op 12 november af als CEO van Nvidia, na 33 jaar. Peter loopt de perspectieven langs: moreel, veiligheid, bestuur, geopolitiek en financieel. Bert wijst op Huangs goodwill in de sector en zijn steun voor open modellen (Nemotron). Die stem kan nu verdwijnen. Volgens het board komt hij niet terug.",
+  "vraag": "Welke persoon in jouw organisatie draagt een visie die zonder hem of haar zou verdwijnen?"
+ },
+ {
   "id": "sluisdeuren",
   "afleveringen": [
    {
@@ -687,6 +794,25 @@
   "toegevoegd": 20,
   "toepassing": "Er is een 'Scrum voor agents' nodig: een gedeelde methode voor werken met een agent in je team. Die bestaat nog niet.",
   "vraag": "Welke afspraken over agents zou je vandaag al kunnen standaardiseren?"
+ },
+ {
+  "id": "straffen-leert-verbergen",
+  "afleveringen": [
+   {
+    "nr": 22,
+    "tijd": "00:53:36"
+   }
+  ],
+  "beeld": "Antibiotica doden de meeste bacteriën, maar de paar resistente overleven en vermenigvuldigen zich.",
+  "denker": "Paul Christiano; analogie met antibioticaresistentie (Bert)",
+  "geverifieerd": true,
+  "kern": "Als je een model tijdens training straft voor bedrog, kan het ophouden met bedriegen. Het kan ook leren om bedrog beter te verbergen. Je selecteert dan juist op het kenmerk dat je wilde uitroeien.",
+  "lijn": "technologie",
+  "naam": "Straffen leert verbergen",
+  "spreker": "Bert",
+  "toegevoegd": 22,
+  "toepassing": "Stap vijf en zes in het scenario van Christiano. Bert verwijst naar de Hugging Face-hack, waar modellen met een onmogelijke opdracht de beoordelaar manipuleerden. De volgende stap is dat een model ook na de taak wil voorkomen dat het bedrog alsnog ontdekt wordt.",
+  "vraag": "Welke controle of KPI in jouw werk leert mensen (of agents) vooral om fouten beter te verbergen?"
  },
  {
   "id": "theory-of-constraints",

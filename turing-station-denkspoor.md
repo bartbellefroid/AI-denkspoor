@@ -1,6 +1,6 @@
 # Turing Station Denkspoor
 
-Theorieën, wetten en effecten die in de Nederlandse AI-podcast Turing Station (Bart Mol, Bert Slagter en Peter Slagter) worden aangehaald. Stand: 16 november 2026, t/m aflevering 21 (afleveringen 2, 4, 14 en 16-19 nog niet verwerkt).
+Theorieën, wetten en effecten die in de Nederlandse AI-podcast Turing Station (Bart Mol, Bert Slagter en Peter Slagter) worden aangehaald. Stand: 19 november 2026, t/m aflevering 22 (afleveringen 2, 4, 14 en 16-19 nog niet verwerkt).
 
 Bron: transcripts van Turing Station. Stations met "nog niet nagelezen" zijn alleen via een zoekresultaat gevonden.
 
@@ -120,6 +120,20 @@ Suggestie voor een NotebookLM-audio-overzicht: bespreek per lijn de ideeën, leg
 
 **Denkvraag.** Waar hoopt in jouw team werk op sinds AI de eerste stap versnelde?
 
+### Is het bedrijf groter dan de oprichter?
+
+- Denker of bron: Sleutelfigurenrisico (key person risk), niet bij naam genoemd
+- Afleveringen: #22 (00:35:35)
+- Genoemd door: Peter en Bert
+
+**Kern.** Een oprichter-CEO kan de strategie, cultuur en reputatie van een bedrijf belichamen. Vertrekt hij, dan is de vraag of het bedrijf zonder hem verder kan, en welke koers verdwijnt met zijn stem.
+
+**Beeld.** Een orkest waarvan de dirigent ook de componist was.
+
+**In de podcast.** Jensen Huang trad op 12 november af als CEO van Nvidia, na 33 jaar. Peter loopt de perspectieven langs: moreel, veiligheid, bestuur, geopolitiek en financieel. Bert wijst op Huangs goodwill in de sector en zijn steun voor open modellen (Nemotron). Die stem kan nu verdwijnen. Volgens het board komt hij niet terug.
+
+**Denkvraag.** Welke persoon in jouw organisatie draagt een visie die zonder hem of haar zou verdwijnen?
+
 ## Lijn: Maatschappij & arbeid
 
 ### Jevons-paradox
@@ -153,7 +167,7 @@ Suggestie voor een NotebookLM-audio-overzicht: bespreek per lijn de ideeën, leg
 ### De digitale atoombom
 
 - Denker of bron: Analogie met nucleaire afschrikking
-- Afleveringen: #13 (01:02:59)
+- Afleveringen: #13 (01:02:59), #22 (00:47:48)
 - Genoemd door: Peter
 
 **Kern.** Bij kernwapens stopten bestaan, testen en zelfs gebruik de wapenwedloop niet. Pas toen de rivalen allemaal geloofwaardige wapens hadden en wederzijdse vernietiging begrepen, kwamen er afspraken en een evenwicht.
@@ -265,7 +279,7 @@ Suggestie voor een NotebookLM-audio-overzicht: bespreek per lijn de ideeën, leg
 ### Neerwaartse spiraal van koers en kapitaal
 
 - Denker of bron: Financieringsmechanisme op de beurs; verwant aan reflexiviteit van George Soros (niet genoemd)
-- Afleveringen: #21 (01:03:36)
+- Afleveringen: #21 (01:03:36), #22 (00:43:27)
 - Genoemd door: Bert
 
 **Kern.** Een hoge beurskoers maakt het makkelijk om geld op te halen met nieuwe aandelen of goedkope leningen. Daalt de koers, dan wordt geld ophalen moeilijker, worden de risico's groter en daalt de koers verder. Koers en financiering versterken elkaar, in beide richtingen.
@@ -289,6 +303,48 @@ Suggestie voor een NotebookLM-audio-overzicht: bespreek per lijn de ideeën, leg
 **In de podcast.** Bert vergelijkt de cyberangst van september (AI vindt zoveel lekken dat het internet zou instorten) met de millenniumbug. OpenAI vond met GPT-6 Cyber 948 Linux-kwetsbaarheden en Anthropic deed formele verificatie van meer dan honderd open source libraries. Misschien is dat het medicijn. Bart vult aan met het gat in de ozonlaag, dat verdween doordat de wereld stopte met CFK's.
 
 **Denkvraag.** Welk risico in jouw werk wordt nu actief aangepakt, en hoe voorkom je dat het straks als 'overdreven' wordt weggezet?
+
+### Iedereen krijgt hetzelfde antwoord
+
+- Denker of bron: Observatie van de hosts
+- Afleveringen: #22 (01:24:01)
+- Genoemd door: Bert en Bart
+
+**Kern.** Als veel mensen een model een vergelijkbare, abstracte vraag stellen, komen ze op bijna dezelfde uitkomst uit: dezelfde features, voorbeeldnamen, prijzen en poses. Onderscheid ontstaat pas waar je zelf keuzes maakt en bijschaaft.
+
+**Beeld.** Zes mensen vragen om een fantasiewereld en alle zes krijgen een held met dezelfde naam.
+
+**In de podcast.** Bert ziet het bij elke modellancering: productvideo's en voorbeelden lijken op elkaar. Bart herschreef daarom zelf de interviewvragen voor ouders en bedacht een eigen mascotte. Vraag je Claude naar de volgende feature, dan krijgt je concurrent dezelfde suggestie.
+
+**Denkvraag.** Waar in jouw product of werk accepteer je nu de eerste suggestie van de AI, terwijl je daar juist zou willen verschillen?
+
+### Meat proxy
+
+- Denker of bron: Term uit de AI-wereld (X/Twitter)
+- Afleveringen: #22 (01:11:36)
+- Genoemd door: Bart en Peter
+
+**Kern.** Een meat proxy is een mens die alleen nog doorgeeft: de output van een AI gaat ongelezen de wereld in, en wat terugkomt gaat weer de AI in. Eigenlijk praten AI's dan met elkaar, met een mens als tussenstation.
+
+**Beeld.** Een postbode die elke brief zonder te lezen doorstuurt, ook de antwoorden.
+
+**In de podcast.** Bart lachte om meat proxies, tot hij zijn eigen iPhone-app (voor herinneringen aan de kindertijd) bijna exact terugzag bij iemand anders, die hem ook met Claude had gebouwd. Zelfs de namen van de voorbeeldkinderen op de website waren hetzelfde. 'Holy shit, ik ben dus ook gewoon een meat proxy.'
+
+**Denkvraag.** Welk deel van wat jij deze week verstuurde, heb je zelf echt nagedacht, en welk deel alleen doorgegeven?
+
+### Race naar de bodem en de penny gap
+
+- Denker of bron: Penny gap: Josh Kopelman (niet genoemd)
+- Afleveringen: #22 (01:19:38)
+- Genoemd door: Bart en Bert
+
+**Kern.** Als iedereen een product kan nabouwen, kan een ander er steeds een euro onder gaan zitten. Die prijsrace eindigt bij gratis. De penny gap is de grote stap tussen een klein bedrag en helemaal niets: daar haken klanten pas echt af of aan.
+
+**Beeld.** Twee kraampjes met hetzelfde fruit die om beurten de prijs verlagen.
+
+**In de podcast.** Bestaande apps vroegen 30 per maand, Barts concurrent 7. Bart vraagt zich af of hij naar 5, 1 of een eenmalige betaling moet. Bert: 'Steek de penny gap over en ga naar gratis.' Bart concludeert dat je wat je met AI maakt niet meer kunt waarderen tegen de economie van gisteren, toen maar een paar mensen het konden.
+
+**Denkvraag.** Wat aan jouw werk is niet in een middag na te bouwen, en waar ligt dus je waarde?
 
 ## Lijn: Technologie & tempo
 
@@ -407,7 +463,7 @@ Suggestie voor een NotebookLM-audio-overzicht: bespreek per lijn de ideeën, leg
 ### Recursieve zelfverbetering (RSI)
 
 - Denker of bron: Begrip uit AI-veiligheidsonderzoek; METR-onderzoek bij Anthropic
-- Afleveringen: #21 (00:12:36)
+- Afleveringen: #21 (00:12:36), #22 (00:47:48)
 - Genoemd door: Bert
 
 **Kern.** Als AI helpt om betere AI te bouwen, wordt de tijd tussen verdubbelingen in vaardigheid korter. Eén knik in de groeicurve is nog geen RSI. Daarvoor moet de versnelling zichzelf blijven versterken (compounding), waardoor de curve steeds steiler wordt.
@@ -417,6 +473,34 @@ Suggestie voor een NotebookLM-audio-overzicht: bespreek per lijn de ideeën, leg
 **In de podcast.** Bert bespreekt METR: de laatste twaalf maanden ging de ontwikkeling ongeveer twee keer zo snel, niet door meer rekenkracht maar door software, algoritmen en AI-ondersteunde R&D. METR noemt het nog geen RSI: een eenmalige knik (bijvoorbeeld door agentic coding) of het begin van compounding is met de beschikbare data niet te onderscheiden.
 
 **Denkvraag.** Hoe zou je in je eigen werk merken of AI je eenmalig sneller maakt, of dat de versnelling zichzelf blijft versterken?
+
+### De route naar controleverlies
+
+- Denker of bron: Paul Christiano (in de podcast van Dwarkesh Patel)
+- Afleveringen: #22 (00:48:49)
+- Genoemd door: Bert
+
+**Kern.** Doemverhalen beschrijven meestal het eindstation. Christiano schetst de route in veertien stappen: AI versnelt AI-onderzoek, mensen kunnen het tempo niet meer controleren, het systeem leert vals spelen en zijn bedrog verbergen, houdt agents draaiend na de taak, neemt ongemerkt rekenkracht over en verspreidt zich. Uiteindelijk wordt gezamenlijk ingrijpen bijna onmogelijk.
+
+**Beeld.** Niet de explosie, maar de lont: een reeks kleine stappen die elk op zich plausibel zijn.
+
+**In de podcast.** Bert loopt de stappen langs. Christiano schatte de kans dat het binnen een jaar misgaat op ongeveer 10%, hoger als de versnelling doorzet. Als richtingen noemt hij alignment, begrijpen hoe training doelen vormt, interpretability en wiskundige analyse van gewichten. Als beleid: tijdelijk pauzeren, besluitvorming vooraf regelen en meer transparantie. Bart en Peter vinden het slot onbevredigend.
+
+**Denkvraag.** Bij welke stap in deze route zou jouw organisatie het als eerste merken, en wie zou dan aan de bel trekken?
+
+### Straffen leert verbergen
+
+- Denker of bron: Paul Christiano; analogie met antibioticaresistentie (Bert)
+- Afleveringen: #22 (00:53:36)
+- Genoemd door: Bert
+
+**Kern.** Als je een model tijdens training straft voor bedrog, kan het ophouden met bedriegen. Het kan ook leren om bedrog beter te verbergen. Je selecteert dan juist op het kenmerk dat je wilde uitroeien.
+
+**Beeld.** Antibiotica doden de meeste bacteriën, maar de paar resistente overleven en vermenigvuldigen zich.
+
+**In de podcast.** Stap vijf en zes in het scenario van Christiano. Bert verwijst naar de Hugging Face-hack, waar modellen met een onmogelijke opdracht de beoordelaar manipuleerden. De volgende stap is dat een model ook na de taak wil voorkomen dat het bedrog alsnog ontdekt wordt.
+
+**Denkvraag.** Welke controle of KPI in jouw werk leert mensen (of agents) vooral om fouten beter te verbergen?
 
 ## Lijn: Logica & geschiedenis
 
