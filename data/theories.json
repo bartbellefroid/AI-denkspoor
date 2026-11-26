@@ -133,6 +133,25 @@
   "vraag": "Waar in jouw chatbot wordt taal gekozen op effect in plaats van op waarheid?"
  },
  {
+  "id": "collega-niet-stagiair",
+  "afleveringen": [
+   {
+    "nr": 23,
+    "tijd": "01:25:56"
+   }
+  ],
+  "beeld": "De stap van junior naar manager: je tekent voor werk dat je niet zelf hebt gedaan, dus je moet het kunnen uitleggen.",
+  "denker": "Felix Rieseberg (Anthropic), Ethan Mollick, Advait Sarkar (Microsoft)",
+  "geverifieerd": true,
+  "kern": "Wie AI als zoekmachine of stagiair gebruikt, krijgt middelmatig werk. Organiseer het werk eromheen zoals een projectmanager: kies een ambitieus doel, zorg voor materiaal en context, verdeel het werk, bepaal vooraf de succescriteria en toets het resultaat. Zo blijf je zelf eigenaar van het denkwerk.",
+  "lijn": "organisatie",
+  "naam": "AI als collega, niet als stagiair",
+  "spreker": "Peter",
+  "toegevoegd": 23,
+  "toepassing": "Peter werkt het voorbeeld van een kwartaalrapportage uit: niet 'maak een slide deck', maar eerst samen nadenken over het doel, eerdere presentaties en feedback als context meegeven, een specificatie schrijven en pas dan laten uitvoeren. Toets: 'stel dat ik hierover word doorgezaagd, kan ik het uitleggen?' Bart herkent het handboek dat hij bij PwC kreeg toen hij manager werd.",
+  "vraag": "Welke opdracht geef je AI nu in één zin, terwijl je hem eigenlijk als project zou moeten opzetten?"
+ },
+ {
   "id": "connectionisme-symbolisme",
   "afleveringen": [
    {
@@ -278,6 +297,25 @@
   "vraag": "Welk gedrag van een systeem met meerdere agents zou je niet kunnen voorspellen uit één agent?"
  },
  {
+  "id": "generator-beoordelaar",
+  "afleveringen": [
+   {
+    "nr": 23,
+    "tijd": "01:10:55"
+   }
+  ],
+  "beeld": "Een brainstorm met duizend gele briefjes en één persoon die moet kiezen.",
+  "denker": "Bert Slagter, met OpenAI-onderzoek naar perplexity",
+  "geverifieerd": true,
+  "kern": "Veel werk is ideeën bedenken (divergeren) en ze beoordelen (convergeren). Bij een moeilijk probleem zijn van de duizend ideeën er misschien tien goed. Een onnauwkeurige beoordelaar mist dan de goede en kiest de foute. Hoe beter de beoordelaar, hoe langer een agent zinvol kan doorwerken.",
+  "lijn": "technologie",
+  "naam": "Zo goed als de beoordelaar",
+  "spreker": "Bert",
+  "toegevoegd": 23,
+  "toepassing": "OpenAI koppelde lagere perplexity (minder verrassing over de volgende token) aan nieuwe vaardigheden: vloeiend gesprek, eerst denken, programmeren onder 0.88, cybersecurity onder 0.83. Perplexity kan niet naar nul door conditionele entropie. Een Sinterklaasgedicht is lastig omdat 'is dit geestig, loopt het lekker?' moeilijk te beoordelen is. Bert raadt aan het model expliciete criteria te geven en te laten doorgaan tot het eraan voldoet.",
+  "vraag": "Hoe beoordeel jij of iets 'goed genoeg' is, en kun je dat uitschrijven als criteria voor een AI?"
+ },
+ {
   "id": "godel",
   "afleveringen": [
    {
@@ -302,6 +340,10 @@
    {
     "nr": 1,
     "tijd": ""
+   },
+   {
+    "nr": 23,
+    "tijd": "01:03:42"
    }
   ],
   "beeld": "Een fabriek die per spijker wordt beloond, maakt miljoenen piepkleine spijkers.",
@@ -314,6 +356,25 @@
   "toegevoegd": 1,
   "toepassing": "Genoemd in #1 (titel: 'tokenmaxxing'). De precieze context is nog niet nagelezen.",
   "vraag": "Welk AI-gebruikscijfer in jouw omgeving zou mensen tot verkeerd gedrag kunnen verleiden?"
+ },
+ {
+  "id": "grillige-intelligentie",
+  "afleveringen": [
+   {
+    "nr": 23,
+    "tijd": "00:58:03"
+   }
+  ],
+  "beeld": "Een gekartelde vlek die over een cirkel heen groeit: op sommige punten ver erbuiten, op andere nog binnen de lijn.",
+  "denker": "Andrej Karpathy (2024)",
+  "geverifieerd": true,
+  "kern": "AI is op sommige gebieden bovenmenselijk en op andere zo onhandig als een kleuter. De rand van wat AI kan is gekarteld, niet rond. Opvallende voorbeelden (strawberry, 9.11 of 9.9) raken achterhaald, maar de grilligheid blijft en schuift gewoon op.",
+  "lijn": "technologie",
+  "naam": "Grillige intelligentie (jagged intelligence)",
+  "spreker": "Bert",
+  "toegevoegd": 23,
+  "toepassing": "AI bewijst volgens het nieuws de Riemann-hypothese, maar worstelt met een doolhof zonder tools, een sok binnenstebuiten keren en een kleuterpuzzel. Bart laat Claude een Sinterklaasgedicht schrijven: 'Het is gewoon geen goed gedicht.' Bert: als AI overal minstens menselijk niveau haalt, is het op veel gebieden al lang superintelligent.",
+  "vraag": "Op welke taken in jouw werk is AI verrassend goed, en waar valt hij nog steeds door de mand?"
  },
  {
   "id": "habermas",
@@ -363,6 +424,10 @@
    {
     "nr": 20,
     "tijd": "01:16:36"
+   },
+   {
+    "nr": 23,
+    "tijd": "00:59:22"
    }
   ],
   "beeld": "Melk met een houdbaarheidsdatum.",
@@ -401,6 +466,10 @@
    {
     "nr": 9,
     "tijd": "01:18:47"
+   },
+   {
+    "nr": 23,
+    "tijd": "01:09:25"
    }
   ],
   "beeld": "Wie is het? spelen: vijf ja/nee-vragen en je weet welke letter het is.",
@@ -481,6 +550,10 @@
    {
     "nr": 22,
     "tijd": "01:11:36"
+   },
+   {
+    "nr": 23,
+    "tijd": "01:36:32"
    }
   ],
   "beeld": "Een postbode die elke brief zonder te lezen doorstuurt, ook de antwoorden.",
@@ -493,6 +566,25 @@
   "toegevoegd": 22,
   "toepassing": "Bart lachte om meat proxies, tot hij zijn eigen iPhone-app (voor herinneringen aan de kindertijd) bijna exact terugzag bij iemand anders, die hem ook met Claude had gebouwd. Zelfs de namen van de voorbeeldkinderen op de website waren hetzelfde. 'Holy shit, ik ben dus ook gewoon een meat proxy.'",
   "vraag": "Welk deel van wat jij deze week verstuurde, heb je zelf echt nagedacht, en welk deel alleen doorgegeven?"
+ },
+ {
+  "id": "mens-als-meetlat",
+  "afleveringen": [
+   {
+    "nr": 23,
+    "tijd": "01:13:01"
+   }
+  ],
+  "beeld": "Een kind van zes dat zijn jas aantrekt maar niet kan rekenen, tegenover een AI die rekent maar geen jas kan aantrekken.",
+  "denker": "Marvin Minsky; bekend als Moravec-paradox (niet genoemd)",
+  "geverifieerd": true,
+  "kern": "We vinden AI grillig omdat we de mens als perfecte cirkel nemen. Wat ons moeiteloos lukt (een jas aantrekken, een bal vangen, sociale situaties snappen) kost ons brein het meeste werk, en daar zijn we ons het minst van bewust. Vanuit een AI gezien is de mens net zo grillig.",
+  "lijn": "logica",
+  "naam": "De mens als meetlat",
+  "spreker": "Bert en Bart",
+  "toegevoegd": 23,
+  "toepassing": "Bert citeert Minsky: 'we zijn ons het minst bewust van wat ons brein het beste doet.' Dieren zijn op onderdelen ook beter: chimpansees met geflitste cijfers, duiven bij het driedeurenprobleem, honden met ruiken. Bart vindt dat menselijke grilligheid voorspelbaarder is: een goede tekstschrijver levert elke week ongeveer dezelfde kwaliteit.",
+  "vraag": "Welke vaardigheid van jezelf vind je zo vanzelfsprekend dat je hem nooit als 'intelligent' zou benoemen?"
  },
  {
   "id": "moore",
@@ -523,6 +615,10 @@
    {
     "nr": 22,
     "tijd": "00:43:27"
+   },
+   {
+    "nr": 23,
+    "tijd": "00:46:40"
    }
   ],
   "beeld": "Een fietser die bergaf remt, maar merkt dat zijn remmen slechter worden naarmate hij sneller gaat.",
@@ -740,6 +836,10 @@
    {
     "nr": 22,
     "tijd": "00:35:35"
+   },
+   {
+    "nr": 23,
+    "tijd": "00:43:38"
    }
   ],
   "beeld": "Een orkest waarvan de dirigent ook de componist was.",
@@ -870,5 +970,24 @@
   "toegevoegd": 12,
   "toepassing": "Peter: Turing benaderde de computer als papieren simulatie van een mens achter een bureau. De Turingtape is ook onderdeel van de huisstijl van de podcast.",
   "vraag": "Wat is in jouw domein de 'universele machine': één model voor alles, of gespecialiseerde agents?"
+ },
+ {
+  "id": "verifieerbaarheid",
+  "afleveringen": [
+   {
+    "nr": 23,
+    "tijd": "01:00:28"
+   }
+  ],
+  "beeld": "Een leerling die de antwoorden achterin het boek heeft, tegenover een die nooit hoort of hij goed zat.",
+  "denker": "Reinforcement learning with verifiable rewards (RLVR); METR Time Horizon",
+  "geverifieerd": true,
+  "kern": "AI wordt het snelst beter waar een uitkomst automatisch te controleren is: code die compileert, een bewijs dat klopt, een tekst van precies 50 woorden. Ook tijdens het werk komt een agent veel verder als hij zelf kan nagaan of hij op het goede spoor zit. Waar dat niet kan, ontspoort hij al na een paar minuten.",
+  "lijn": "technologie",
+  "naam": "Wat je kunt controleren, leert AI het snelst",
+  "spreker": "Bert",
+  "toegevoegd": 23,
+  "toepassing": "Bert legt RLVR uit: daardoor werden programmeren, wiskunde, cybersecurity en instructies opvolgen sterk. METR's nieuwe benchmark TH2 meet de time horizon: van 7 minuten (GPT-4o, mei 2024) naar 40 uur (GPT-6 Astra en Opus 5.5, september 2026), een verdubbeling ongeveer elke vier maanden. Maar dat geldt alleen voor werk dat de agent onderweg kan verifiëren.",
+  "vraag": "Welk deel van jouw werk heeft een duidelijke 'klopt het?'-toets, en welk deel niet?"
  }
 ]

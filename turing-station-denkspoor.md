@@ -1,6 +1,6 @@
 # Turing Station Denkspoor
 
-Theorieën, wetten en effecten die in de Nederlandse AI-podcast Turing Station (Bart Mol, Bert Slagter en Peter Slagter) worden aangehaald. Stand: 19 november 2026, t/m aflevering 22 (afleveringen 2, 4, 14 en 16-19 nog niet verwerkt).
+Theorieën, wetten en effecten die in de Nederlandse AI-podcast Turing Station (Bart Mol, Bert Slagter en Peter Slagter) worden aangehaald. Stand: 26 november 2026, t/m aflevering 23 (afleveringen 2, 4, 14 en 16-19 nog niet verwerkt).
 
 Bron: transcripts van Turing Station. Stations met "nog niet nagelezen" zijn alleen via een zoekresultaat gevonden.
 
@@ -11,7 +11,7 @@ Suggestie voor een NotebookLM-audio-overzicht: bespreek per lijn de ideeën, leg
 ### Goodhart's Law
 
 - Denker of bron: Charles Goodhart
-- Afleveringen: #1
+- Afleveringen: #1, #23 (01:03:42)
 - Status: context nog niet nagelezen
 
 **Kern.** Wanneer een maatstaf een doel wordt, is het geen goede maatstaf meer. Mensen gaan het getal optimaliseren in plaats van wat het getal moest meten.
@@ -123,7 +123,7 @@ Suggestie voor een NotebookLM-audio-overzicht: bespreek per lijn de ideeën, leg
 ### Is het bedrijf groter dan de oprichter?
 
 - Denker of bron: Sleutelfigurenrisico (key person risk), niet bij naam genoemd
-- Afleveringen: #22 (00:35:35)
+- Afleveringen: #22 (00:35:35), #23 (00:43:38)
 - Genoemd door: Peter en Bert
 
 **Kern.** Een oprichter-CEO kan de strategie, cultuur en reputatie van een bedrijf belichamen. Vertrekt hij, dan is de vraag of het bedrijf zonder hem verder kan, en welke koers verdwijnt met zijn stem.
@@ -133,6 +133,20 @@ Suggestie voor een NotebookLM-audio-overzicht: bespreek per lijn de ideeën, leg
 **In de podcast.** Jensen Huang trad op 12 november af als CEO van Nvidia, na 33 jaar. Peter loopt de perspectieven langs: moreel, veiligheid, bestuur, geopolitiek en financieel. Bert wijst op Huangs goodwill in de sector en zijn steun voor open modellen (Nemotron). Die stem kan nu verdwijnen. Volgens het board komt hij niet terug.
 
 **Denkvraag.** Welke persoon in jouw organisatie draagt een visie die zonder hem of haar zou verdwijnen?
+
+### AI als collega, niet als stagiair
+
+- Denker of bron: Felix Rieseberg (Anthropic), Ethan Mollick, Advait Sarkar (Microsoft)
+- Afleveringen: #23 (01:25:56)
+- Genoemd door: Peter
+
+**Kern.** Wie AI als zoekmachine of stagiair gebruikt, krijgt middelmatig werk. Organiseer het werk eromheen zoals een projectmanager: kies een ambitieus doel, zorg voor materiaal en context, verdeel het werk, bepaal vooraf de succescriteria en toets het resultaat. Zo blijf je zelf eigenaar van het denkwerk.
+
+**Beeld.** De stap van junior naar manager: je tekent voor werk dat je niet zelf hebt gedaan, dus je moet het kunnen uitleggen.
+
+**In de podcast.** Peter werkt het voorbeeld van een kwartaalrapportage uit: niet 'maak een slide deck', maar eerst samen nadenken over het doel, eerdere presentaties en feedback als context meegeven, een specificatie schrijven en pas dan laten uitvoeren. Toets: 'stel dat ik hierover word doorgezaagd, kan ik het uitleggen?' Bart herkent het handboek dat hij bij PwC kreeg toen hij manager werd.
+
+**Denkvraag.** Welke opdracht geef je AI nu in één zin, terwijl je hem eigenlijk als project zou moeten opzetten?
 
 ## Lijn: Maatschappij & arbeid
 
@@ -279,7 +293,7 @@ Suggestie voor een NotebookLM-audio-overzicht: bespreek per lijn de ideeën, leg
 ### Neerwaartse spiraal van koers en kapitaal
 
 - Denker of bron: Financieringsmechanisme op de beurs; verwant aan reflexiviteit van George Soros (niet genoemd)
-- Afleveringen: #21 (01:03:36), #22 (00:43:27)
+- Afleveringen: #21 (01:03:36), #22 (00:43:27), #23 (00:46:40)
 - Genoemd door: Bert
 
 **Kern.** Een hoge beurskoers maakt het makkelijk om geld op te halen met nieuwe aandelen of goedkope leningen. Daalt de koers, dan wordt geld ophalen moeilijker, worden de risico's groter en daalt de koers verder. Koers en financiering versterken elkaar, in beide richtingen.
@@ -321,7 +335,7 @@ Suggestie voor een NotebookLM-audio-overzicht: bespreek per lijn de ideeën, leg
 ### Meat proxy
 
 - Denker of bron: Term uit de AI-wereld (X/Twitter)
-- Afleveringen: #22 (01:11:36)
+- Afleveringen: #22 (01:11:36), #23 (01:36:32)
 - Genoemd door: Bart en Peter
 
 **Kern.** Een meat proxy is een mens die alleen nog doorgeeft: de output van een AI gaat ongelezen de wereld in, en wat terugkomt gaat weer de AI in. Eigenlijk praten AI's dan met elkaar, met een mens als tussenstation.
@@ -421,7 +435,7 @@ Suggestie voor een NotebookLM-audio-overzicht: bespreek per lijn de ideeën, leg
 ### Houdbaarheid van AI-bevindingen
 
 - Denker of bron: Stanford, The Shelf Life of LLM Findings
-- Afleveringen: #20 (01:10:01), #20 (01:16:36)
+- Afleveringen: #20 (01:10:01), #20 (01:16:36), #23 (00:59:22)
 - Genoemd door: Bert
 
 **Kern.** Bevindingen over wat AI niet kan, verouderen snel. Van 45 bekende zwaktes zijn er 22 opgelost, 17 verbeterd, 8 gelijk en 3 erger (zoals naar de mond praten). De uitkomst is nooit 'het kan niet' maar 'het kan nu nog niet'.
@@ -502,6 +516,48 @@ Suggestie voor een NotebookLM-audio-overzicht: bespreek per lijn de ideeën, leg
 
 **Denkvraag.** Welke controle of KPI in jouw werk leert mensen (of agents) vooral om fouten beter te verbergen?
 
+### Grillige intelligentie (jagged intelligence)
+
+- Denker of bron: Andrej Karpathy (2024)
+- Afleveringen: #23 (00:58:03)
+- Genoemd door: Bert
+
+**Kern.** AI is op sommige gebieden bovenmenselijk en op andere zo onhandig als een kleuter. De rand van wat AI kan is gekarteld, niet rond. Opvallende voorbeelden (strawberry, 9.11 of 9.9) raken achterhaald, maar de grilligheid blijft en schuift gewoon op.
+
+**Beeld.** Een gekartelde vlek die over een cirkel heen groeit: op sommige punten ver erbuiten, op andere nog binnen de lijn.
+
+**In de podcast.** AI bewijst volgens het nieuws de Riemann-hypothese, maar worstelt met een doolhof zonder tools, een sok binnenstebuiten keren en een kleuterpuzzel. Bart laat Claude een Sinterklaasgedicht schrijven: 'Het is gewoon geen goed gedicht.' Bert: als AI overal minstens menselijk niveau haalt, is het op veel gebieden al lang superintelligent.
+
+**Denkvraag.** Op welke taken in jouw werk is AI verrassend goed, en waar valt hij nog steeds door de mand?
+
+### Wat je kunt controleren, leert AI het snelst
+
+- Denker of bron: Reinforcement learning with verifiable rewards (RLVR); METR Time Horizon
+- Afleveringen: #23 (01:00:28)
+- Genoemd door: Bert
+
+**Kern.** AI wordt het snelst beter waar een uitkomst automatisch te controleren is: code die compileert, een bewijs dat klopt, een tekst van precies 50 woorden. Ook tijdens het werk komt een agent veel verder als hij zelf kan nagaan of hij op het goede spoor zit. Waar dat niet kan, ontspoort hij al na een paar minuten.
+
+**Beeld.** Een leerling die de antwoorden achterin het boek heeft, tegenover een die nooit hoort of hij goed zat.
+
+**In de podcast.** Bert legt RLVR uit: daardoor werden programmeren, wiskunde, cybersecurity en instructies opvolgen sterk. METR's nieuwe benchmark TH2 meet de time horizon: van 7 minuten (GPT-4o, mei 2024) naar 40 uur (GPT-6 Astra en Opus 5.5, september 2026), een verdubbeling ongeveer elke vier maanden. Maar dat geldt alleen voor werk dat de agent onderweg kan verifiëren.
+
+**Denkvraag.** Welk deel van jouw werk heeft een duidelijke 'klopt het?'-toets, en welk deel niet?
+
+### Zo goed als de beoordelaar
+
+- Denker of bron: Bert Slagter, met OpenAI-onderzoek naar perplexity
+- Afleveringen: #23 (01:10:55)
+- Genoemd door: Bert
+
+**Kern.** Veel werk is ideeën bedenken (divergeren) en ze beoordelen (convergeren). Bij een moeilijk probleem zijn van de duizend ideeën er misschien tien goed. Een onnauwkeurige beoordelaar mist dan de goede en kiest de foute. Hoe beter de beoordelaar, hoe langer een agent zinvol kan doorwerken.
+
+**Beeld.** Een brainstorm met duizend gele briefjes en één persoon die moet kiezen.
+
+**In de podcast.** OpenAI koppelde lagere perplexity (minder verrassing over de volgende token) aan nieuwe vaardigheden: vloeiend gesprek, eerst denken, programmeren onder 0.88, cybersecurity onder 0.83. Perplexity kan niet naar nul door conditionele entropie. Een Sinterklaasgedicht is lastig omdat 'is dit geestig, loopt het lekker?' moeilijk te beoordelen is. Bert raadt aan het model expliciete criteria te geven en te laten doorgaan tot het eraan voldoet.
+
+**Denkvraag.** Hoe beoordeel jij of iets 'goed genoeg' is, en kun je dat uitschrijven als criteria voor een AI?
+
 ## Lijn: Logica & geschiedenis
 
 ### Booleaanse logica
@@ -563,7 +619,7 @@ Suggestie voor een NotebookLM-audio-overzicht: bespreek per lijn de ideeën, leg
 ### Informatietheorie
 
 - Denker of bron: Claude Shannon (1948)
-- Afleveringen: #9 (01:18:47)
+- Afleveringen: #9 (01:18:47), #23 (01:09:25)
 - Genoemd door: Peter
 
 **Kern.** Informatie is het wegnemen van onzekerheid, gemeten in bits: elke bit halveert de mogelijkheden. Elk kanaal heeft een maximale capaciteit, en zolang je daaronder blijft kun je zo coderen dat ruis te corrigeren is. Geschreven Engels is naar Shannons schatting voor zo'n 75% voorspelbaar.
@@ -629,3 +685,17 @@ Suggestie voor een NotebookLM-audio-overzicht: bespreek per lijn de ideeën, leg
 **In de podcast.** Peter laat McCarthy zelf twijfelen of hij de term niet van Philip Woodward had gehoord: 'er zitten nooit rechte lijnen tussen dingen'.
 
 **Denkvraag.** Wat verandert er als je een verzameling losse technieken één naam geeft?
+
+### De mens als meetlat
+
+- Denker of bron: Marvin Minsky; bekend als Moravec-paradox (niet genoemd)
+- Afleveringen: #23 (01:13:01)
+- Genoemd door: Bert en Bart
+
+**Kern.** We vinden AI grillig omdat we de mens als perfecte cirkel nemen. Wat ons moeiteloos lukt (een jas aantrekken, een bal vangen, sociale situaties snappen) kost ons brein het meeste werk, en daar zijn we ons het minst van bewust. Vanuit een AI gezien is de mens net zo grillig.
+
+**Beeld.** Een kind van zes dat zijn jas aantrekt maar niet kan rekenen, tegenover een AI die rekent maar geen jas kan aantrekken.
+
+**In de podcast.** Bert citeert Minsky: 'we zijn ons het minst bewust van wat ons brein het beste doet.' Dieren zijn op onderdelen ook beter: chimpansees met geflitste cijfers, duiven bij het driedeurenprobleem, honden met ruiken. Bart vindt dat menselijke grilligheid voorspelbaarder is: een goede tekstschrijver levert elke week ongeveer dezelfde kwaliteit.
+
+**Denkvraag.** Welke vaardigheid van jezelf vind je zo vanzelfsprekend dat je hem nooit als 'intelligent' zou benoemen?
